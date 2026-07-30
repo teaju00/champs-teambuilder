@@ -16,6 +16,7 @@ os.path.dirname(__file__) 기준으로 데이터를 찾으므로, 같은 폴더�
 
 from __future__ import annotations
 
+import glob
 import os
 import re
 import shutil
@@ -26,6 +27,12 @@ SOURCE_SKILL_MD = os.path.join(BASE_DIR, ".agents", "skills", "champs-team-build
 BUILD_DIR = os.path.join(BASE_DIR, "build", "champs-team-builder")
 DIST_DIR = os.path.join(BASE_DIR, "dist")
 ZIP_PATH = os.path.join(DIST_DIR, "champs-team-builder.zip")
+
+# claude.ai custom Skill 업로드는 압축 해제 크기 30MB 제한이 있다. data/pkmnchamps
+# 전체(28MB, 전 레귤레이션·전 월 사용률 이력)를 다 넣으면 바로 넘긴다 — offmeta.py가
+# 쓰는 정적 참조 파일 4개 + meta_trend.py 트렌드 비교에 필요한 최소치(현 레귤레이션
+# 최근 2개월)만 골라서 담는다.
+SOFT_LIMIT_MB = 28  # 30MB 제한에 여유를 둔 목표치(신규 포켓몬 등으로 KB가 조금씩 늘어나므로)
 
 # 런타임에 실제로 필요한 것만. 데이터 재수집 파이프라인(pkmnchamps_source.py,
 # champs_dataset.py, kb_builder.py, guides_builder.py)은 네트워크가 필요해서
@@ -39,12 +46,31 @@ DATA_ITEMS = [
     "knowledge_base",
     "champs_singles.json",
     "champs_doubles.json",
-    os.path.join("data", "pkmnchamps"),
 ]
+
+# offmeta.py 가 로드하는 정적 참조 파일 (megas/forms/natures/guide_i18n 은
+# 데이터 갱신 파이프라인 전용이라 런타임 CLI 중 아무도 안 읽는다 — 뺀다)
+PKMNCHAMPS_STATIC_FILES = ["pokemon.json", "moves.json", "items.json", "abilities.json"]
+
+# meta_trend.py 는 같은 레귤레이션·포맷의 사용률 파일이 최소 2개월 있어야 트렌드를
+# 비교한다. 현 레귤레이션(M-B)만, 최근 이 개수만큼만 담는다 — m1/showdown-ma 레귤레이션
+# 이력은 이 패키지엔 없음(전체가 필요하면 GitHub 리포를 쓴다).
+USAGE_MONTHS_KEPT = 2
 
 DATA_PIPELINE_LINE = (
     "데이터 갱신 파이프라인과 `data/pkmnchamps/` 파일별 상세는 "
     "`references/data-pipeline.md` 참조."
+)
+
+FULL_DATA_NOTE = (
+    "더 정확하고 넓은 원본이 `data/pkmnchamps/` 에 있다(pokemon.json 1025마리, moves.json,\n"
+    "items.json, abilities.json, 사용률 파일들). **애매하면 이쪽을 본다.**"
+)
+FULL_DATA_NOTE_PACKAGED_SUFFIX = (
+    "\n(이 패키지는 용량 제한 때문에 사용률 파일을 현재 레귤레이션(M-B) 최근 "
+    + str(USAGE_MONTHS_KEPT)
+    + "개월치만 담았다 — `meta_trend.py` 트렌드 비교도 이 범위 안에서만 된다. "
+    "전체 이력·다른 레귤레이션이 필요하면 GitHub 리포를 쓴다.)"
 )
 
 ATTRIBUTION_SECTION = """## 데이터 스냅샷 & 출처
@@ -64,6 +90,7 @@ Pokemon Champions Battle Data 를 출처로 표기하고 https://championsbattle
 def build_skill_md() -> str:
     text = open(SOURCE_SKILL_MD, encoding="utf-8").read()
     text = text.replace(DATA_PIPELINE_LINE, "").rstrip() + "\n"
+    text = text.replace(FULL_DATA_NOTE, FULL_DATA_NOTE + FULL_DATA_NOTE_PACKAGED_SUFFIX)
     text = re.sub(
         r"\n## 데이터 갱신 \(사용자가 명시적으로 요청할 때만\)\n.*\Z",
         "\n" + ATTRIBUTION_SECTION,
@@ -71,6 +98,18 @@ def build_skill_md() -> str:
         flags=re.S,
     )
     return text
+
+
+def copy_data_pkmnchamps(dst_dir: str) -> None:
+    src_dir = os.path.join(BASE_DIR, "data", "pkmnchamps")
+    os.makedirs(dst_dir, exist_ok=True)
+    for name in PKMNCHAMPS_STATIC_FILES:
+        shutil.copy2(os.path.join(src_dir, name), os.path.join(dst_dir, name))
+    for fmt in ("singles", "doubles"):
+        pattern = os.path.join(src_dir, "usage_reg_mb_*_%s.json" % fmt)
+        files = sorted(glob.glob(pattern))[-USAGE_MONTHS_KEPT:]
+        for f in files:
+            shutil.copy2(f, os.path.join(dst_dir, os.path.basename(f)))
 
 
 def main() -> None:
@@ -93,6 +132,19 @@ def main() -> None:
             os.makedirs(os.path.dirname(dst), exist_ok=True)
             shutil.copy2(src, dst)
 
+    copy_data_pkmnchamps(os.path.join(BUILD_DIR, "data", "pkmnchamps"))
+
+    uncompressed_bytes = sum(
+        os.path.getsize(os.path.join(root, f))
+        for root, _dirs, files in os.walk(BUILD_DIR)
+        for f in files
+    )
+    uncompressed_mb = uncompressed_bytes / (1024 * 1024)
+    if uncompressed_mb > 30:
+        print("경고: 압축 해제 크기 %.1f MB — claude.ai 업로드 한도(30MB) 초과!" % uncompressed_mb)
+    elif uncompressed_mb > SOFT_LIMIT_MB:
+        print("주의: 압축 해제 크기 %.1f MB — 30MB 한도에 근접" % uncompressed_mb)
+
     os.makedirs(DIST_DIR, exist_ok=True)
     if os.path.exists(ZIP_PATH):
         os.remove(ZIP_PATH)
@@ -107,8 +159,8 @@ def main() -> None:
                 )
                 zf.write(fpath, arcname)
 
-    size_mb = os.path.getsize(ZIP_PATH) / (1024 * 1024)
-    print("빌드 완료: %s (%.1f MB)" % (ZIP_PATH, size_mb))
+    zip_mb = os.path.getsize(ZIP_PATH) / (1024 * 1024)
+    print("빌드 완료: %s (zip %.1f MB, 압축 해제 %.1f MB)" % (ZIP_PATH, zip_mb, uncompressed_mb))
 
 
 if __name__ == "__main__":
