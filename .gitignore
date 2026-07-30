@@ -17,3 +17,7 @@ Thumbs.db
 
 # 개인이 짠 팀 (예시 아님, 공유 repo에 안 남김)
 팀/
+
+# claude.ai용 포터블 스킬 zip 빌드 산출물 (build_claude_skill.py 로 재생성)
+/build/
+/dist/

@@ -37,8 +37,9 @@ if hasattr(sys.stdout, "reconfigure"):
 from battle_rules import SP_STAT_MAX, SP_TOTAL_MAX, sp_spread_valid  # noqa: E402
 from i18n import L, validate_lang  # noqa: E402
 
-KB_INDEX = "knowledge_base/index.json"
-DATASET = "champs_singles.json"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+KB_INDEX = os.path.join(BASE_DIR, "knowledge_base", "index.json")
+DATASET = os.path.join(BASE_DIR, "champs_singles.json")
 TEAM_SIZE = 6
 BRING_SIZE = 3
 LANG = "ko"
@@ -317,7 +318,7 @@ def main() -> None:
         team = team.get("team") or team.get("pokemon") or []
 
     # 포맷에 따라 데이터셋·선발 수 선택
-    dataset = "champs_%s.json" % a.format
+    dataset = os.path.join(BASE_DIR, "champs_%s.json" % a.format)
     if a.format == "doubles":
         BRING_SIZE = 4
 

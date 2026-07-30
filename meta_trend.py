@@ -27,7 +27,8 @@ if hasattr(sys.stdout, "reconfigure"):
 
 from i18n import L, validate_lang
 
-DATA_DIR = "data/pkmnchamps"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_DIR = os.path.join(BASE_DIR, "data", "pkmnchamps")
 LANG = "ko"
 
 

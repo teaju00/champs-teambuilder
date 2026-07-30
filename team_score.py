@@ -30,7 +30,8 @@ if hasattr(sys.stdout, "reconfigure"):
 from battle_rules import type_multiplier, TYPE_KO, real_stat, nature_up_down
 from i18n import L, type_name, validate_lang
 
-DATASET = "champs_singles.json"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATASET = os.path.join(BASE_DIR, "champs_singles.json")
 STAT_ORDER = ["hp", "atk", "def", "spa", "spd", "spe"]
 BASE_KEY = {"hp": "hp", "attack": "atk", "defense": "def",
             "special-attack": "spa", "special-defense": "spd", "speed": "spe"}
@@ -279,7 +280,7 @@ def main() -> None:
     if isinstance(team, dict):
         team = team.get("team") or team.get("pokemon") or []
 
-    dataset = a.dataset or ("champs_%s.json" % a.format)
+    dataset = a.dataset or os.path.join(BASE_DIR, "champs_%s.json" % a.format)
     ds = load_dataset(dataset)
     team_name = os.path.splitext(os.path.basename(a.team))[0]
 

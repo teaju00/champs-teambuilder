@@ -85,6 +85,27 @@ pip install requests
 `.agents/skills/champs-team-builder/SKILL.md` の内容をそのままシステムプロンプト/カスタム指示に
 貼り付ければ同様に動作します。
 
+### claude.ai(Web/アプリ)で本物の Agent Skill として使う
+
+上記はすべて、リポジトリを開いて Bash でローカルファイルを読めるコーディングエージェント
+専用です。claude.ai(Pro/Max/Team/Enterprise、コード実行有効)には、リポジトリへの
+アクセスなしで動作する別の **Agent Skill アップロード**機能があります —
+SKILL.md と必要なスクリプト・データを1つの zip にまとめてアップロードすれば、
+リクエスト内容に応じて自動的にトリガーされます。
+
+```bash
+python build_claude_skill.py   # dist/champs-team-builder.zip を生成
+```
+
+この zip には SKILL.md、9個のランタイム用 CLI スクリプト、`knowledge_base/`、
+`champs_singles.json`/`champs_doubles.json`、`data/pkmnchamps/` が1つの
+self-contained なフォルダにまとめられます(スクリプトは自分自身のファイル位置基準で
+データを探すため、作業ディレクトリに関係なく動作します)。claude.ai の
+**Settings → Features → Skills** でこの zip をアップロードしてください。
+データ再収集パイプライン(`pkmnchamps_source.py` など)はネットワークが必要で
+サンドボックス環境に合わないため、このパッケージには含まれていません —
+最新データが必要な場合はリポジトリ側で更新してから zip を作り直してください。
+
 > **仕組み**: スキル本体は `.agents/skills/champs-team-builder/SKILL.md` の一つだけです。各ツールのインデックスファイルは「ポケモンチームビルディング作業時はこのスキルを読め」という案内だけを持っているため、どのツールでも同じワークフローが動作します。
 
 ### 方法B: コマンドラインから直接
@@ -241,6 +262,8 @@ python meta_trend.py --regulation m1        # 旧レギュ(M1)
 ├── battle_rules.py                        # チャンピオンズのルール + タイプ相性エンジン
 ├── champs_singles.json                    # 整形済みデータセット(シングル、learnset含む)
 ├── champs_doubles.json                    # 整形済みデータセット(ダブル)
+│
+├── build_claude_skill.py                  # claude.ai用の携帯可能な Agent Skill zip をビルド
 │
 ├── pkmnchamps_source.py                   # ┐
 ├── champs_dataset.py                      # ├ データ更新パイプライン

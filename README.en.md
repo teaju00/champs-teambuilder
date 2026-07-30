@@ -85,6 +85,25 @@ For conversational AI without file access (e.g. the ChatGPT or Gemini web apps),
 contents of `.agents/skills/champs-team-builder/SKILL.md` into the system prompt / custom
 instructions — it works the same way.
 
+### Using it as a real Agent Skill in claude.ai (web/app)
+
+Everything above only works for coding agents that can open the repo and read local files via
+Bash. claude.ai (Pro/Max/Team/Enterprise, with code execution enabled) has a separate **Agent
+Skill upload** feature that works without repo access — bundle SKILL.md plus the scripts and
+data it needs into one zip, and it auto-triggers based on your request.
+
+```bash
+python build_claude_skill.py   # produces dist/champs-team-builder.zip
+```
+
+The zip packages SKILL.md, the 9 runtime CLI scripts, `knowledge_base/`,
+`champs_singles.json`/`champs_doubles.json`, and `data/pkmnchamps/` into one self-contained
+folder (scripts resolve data relative to their own file location, so it works regardless of
+working directory). Upload the zip in claude.ai under **Settings → Features → Skills**. The
+data-refresh pipeline (`pkmnchamps_source.py`, etc.) needs network access, which the sandbox
+doesn't have, so it isn't bundled — update the repo's data and rebuild the zip when you need
+fresher stats.
+
 > **How it works**: the skill itself lives in a single place, `.agents/skills/champs-team-builder/SKILL.md`. Each tool's index file just says "read this skill before doing Pokémon team-building work," so the same workflow runs no matter which tool you use.
 
 ### Option B: Directly from the command line
@@ -241,6 +260,8 @@ A team that passes validation is written up as a `.md` file of the same name (se
 ├── battle_rules.py                        # Champions rules + type-matchup engine
 ├── champs_singles.json                    # curated dataset (singles, includes learnset)
 ├── champs_doubles.json                    # curated dataset (doubles)
+│
+├── build_claude_skill.py                  # builds the portable Agent Skill zip for claude.ai
 │
 ├── pkmnchamps_source.py                   # ┐
 ├── champs_dataset.py                      # ├ data-refresh pipeline

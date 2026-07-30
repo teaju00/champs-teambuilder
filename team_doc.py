@@ -31,7 +31,8 @@ from battle_rules import (
 )
 from i18n import L, type_names, type_name, stat_name, validate_lang
 
-DATASET = "champs_singles.json"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATASET = os.path.join(BASE_DIR, "champs_singles.json")
 LANG = "ko"
 
 

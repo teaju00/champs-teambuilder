@@ -87,6 +87,25 @@ AGENTS.md 를 인식하지 못하는 도구(ChatGPT 웹, Gemini 앱 등 파일 �
 
 > **작동 방식**: 스킬 본체는 `.agents/skills/champs-team-builder/SKILL.md` 하나입니다. 각 도구의 인덱스 파일은 "포켓몬 팀빌딩 작업 시 이 스킬을 읽어라" 라는 안내만 담고 있어, 어느 도구에서든 동일한 워크플로우가 동작합니다.
 
+### claude.ai(웹/앱)에서 진짜 Agent Skill로 쓰기
+
+위 방식은 전부 "리포를 열고 Bash로 로컬 파일을 읽을 수 있는" 코딩 에이전트 전용입니다.
+claude.ai(Pro/Max/Team/Enterprise, 코드 실행 활성화)에는 리포 접근 없이도 동작하는
+**Agent Skill 업로드** 기능이 따로 있습니다 — SKILL.md와 필요한 스크립트·데이터를
+zip 하나로 묶어 올리면, 요청 내용에 맞춰 자동으로 트리거됩니다.
+
+```bash
+python build_claude_skill.py   # dist/champs-team-builder.zip 생성
+```
+
+이 zip은 `.agents/skills/.../SKILL.md`, CLI 스크립트 9개, `knowledge_base/`,
+`champs_singles.json`/`champs_doubles.json`, `data/pkmnchamps/` 를 한 폴더에 모아
+self-contained 로 만듭니다 (스크립트가 자기 파일 위치 기준으로 데이터를 찾아서
+CWD와 무관하게 동작). claude.ai **Settings → Features → Skills** 에서 이 zip을
+업로드하면 됩니다. 데이터 재수집 파이프라인(`pkmnchamps_source.py` 등)은 네트워크가
+필요해 샌드박스 환경에 안 맞으므로 이 패키지엔 포함하지 않습니다 — 최신 데이터가
+필요하면 리포에서 갱신 후 다시 빌드하세요.
+
 ### 방법 B: 명령줄(CLI)에서 직접
 
 AI 없이도 검색·검증 도구를 직접 쓸 수 있습니다.
@@ -241,6 +260,8 @@ python meta_trend.py --regulation m1        # 구 레귀(M1)
 ├── battle_rules.py                        # 챔피언스 규칙 + 타입상성 엔진
 ├── champs_singles.json                    # 정제 데이터셋 (싱글, learnset 포함)
 ├── champs_doubles.json                    # 정제 데이터셋 (더블)
+│
+├── build_claude_skill.py                  # claude.ai용 포터블 Agent Skill zip 빌드
 │
 ├── pkmnchamps_source.py                   # ┐
 ├── champs_dataset.py                      # ├ 데이터 갱신 파이프라인

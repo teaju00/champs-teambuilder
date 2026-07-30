@@ -32,7 +32,8 @@ if hasattr(sys.stdout, "reconfigure"):
 
 from i18n import L, type_names, validate_lang, TYPE_NAME
 
-DATA_DIR = "data/pkmnchamps"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_DIR = os.path.join(BASE_DIR, "data", "pkmnchamps")
 DEFAULT_USAGE_SINGLES = "usage_reg_mb_2026-07_singles.json"
 DEFAULT_USAGE_DOUBLES = "usage_reg_mb_2026-07_doubles.json"
 DEFAULT_USAGE = DEFAULT_USAGE_SINGLES
