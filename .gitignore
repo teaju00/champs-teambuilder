@@ -14,3 +14,6 @@ Thumbs.db
 
 # 로컬 전용 (개인 권한 설정 등, 공유 대상 아님)
 .claude/settings.local.json
+
+# 개인이 짠 팀 (예시 아님, 공유 repo에 안 남김)
+팀/
