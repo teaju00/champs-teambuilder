@@ -296,4 +296,12 @@ See `knowledge_base/rules.md` for detailed rules.
 
 ## License
 
-(Up to you — MIT recommended. Data is sourced from pkmnchamps.com)
+The code is MIT licensed (see [LICENSE](LICENSE)).
+
+Data under `data/pkmnchamps/`, `champs_singles.json`, `champs_doubles.json`, and `knowledge_base/`
+comes from [Pokemon Champions Battle Data](https://championsbattledata.com/)
+([license](https://championsbattledata.com/license.html)). That site permits use for
+"personal, educational, and competitive analysis use" and requires that anyone sharing or reusing
+the data **credit Pokemon Champions Battle Data and link to https://championsbattledata.com/** —
+this project follows that requirement. Pokemon's own intellectual property (Nintendo/Game
+Freak/Creatures Inc.) is separate from this license, and this project is not affiliated with them.

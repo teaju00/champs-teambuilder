@@ -296,4 +296,12 @@ python guides_builder.py
 
 ## ライセンス
 
-(ユーザーが決定 — MIT推奨。データの出典は pkmnchamps.com)
+コードは MIT ライセンスです([LICENSE](LICENSE) 参照)。
+
+`data/pkmnchamps/`、`champs_singles.json`、`champs_doubles.json`、`knowledge_base/` のデータは
+[Pokemon Champions Battle Data](https://championsbattledata.com/)
+([license](https://championsbattledata.com/license.html)) から取得しています。同サイトは
+「personal, educational, and competitive analysis use」目的での利用を許可しており、共有・再利用時には
+**Pokemon Champions Battle Data を出典として明記し、https://championsbattledata.com/ にリンク**する
+ことを求めています。本プロジェクトはこの条件に従います。ポケモン自体の知的財産権(任天堂/
+ゲームフリーク/クリーチャーズ)はこのライセンスとは別であり、本プロジェクトはそれらと無関係です。

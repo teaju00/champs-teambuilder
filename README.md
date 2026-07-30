@@ -296,4 +296,12 @@ python guides_builder.py
 
 ## 라이선스
 
-코드는 MIT 라이선스입니다 ([LICENSE](LICENSE) 참고). 데이터 출처는 [pkmnchamps.com](https://championsbattledata.com)이며, 재배포 시 원 출처 표기를 권장합니다.
+코드는 MIT 라이선스입니다 ([LICENSE](LICENSE) 참고).
+
+`data/pkmnchamps/`, `champs_singles.json`, `champs_doubles.json`, `knowledge_base/` 의 데이터는
+[Pokemon Champions Battle Data](https://championsbattledata.com/) ([license](https://championsbattledata.com/license.html))
+에서 가져왔습니다. 해당 사이트는 "personal, educational, and competitive analysis use" 목적의
+사용을 허용하며, 공유·재사용 시 **Pokemon Champions Battle Data 를 출처로 표기하고
+https://championsbattledata.com/ 를 링크**할 것을 요구합니다. 이 프로젝트는 그 조건을 따릅니다.
+포켓몬 자체의 지적재산권(닌텐도/게임프리크/크리처스)은 이 라이선스와 별개이며, 이 프로젝트는
+그들과 무관합니다.
