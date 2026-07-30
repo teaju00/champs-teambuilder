@@ -1,0 +1,39 @@
+---
+description: 포켓몬 챔피언스 팀빌딩 작업 시 스킬을 참조하도록 안내
+globs:
+  - "팀/**"
+  - "**/*.json"
+  - "knowledge_base/**"
+alwaysApply: false
+---
+
+# 포켓몬 챔피언스 팀빌딩 스킬
+
+포켓몬 팀 구성·세팅 추천·약점 분석·비주류 발굴·팀 문서 생성·팀 평가 관련 요청이 들어오면,
+**반드시 먼저 스킬 문서를 읽어라**:
+
+```
+.agents/skills/champs-team-builder/SKILL.md
+```
+
+이 파일에 역할·추천 절차·출력 포맷·검증 규칙·CLI 도구 사용법이 전부 있다.
+SKILL.md 가 진실의 원천이다.
+
+## 핵심 규칙
+
+- **챔피언스 실제 규칙만** 사용 (IV 31 고정 + SP 슬라이더, 마비 12.5%, 수면 최대 2턴 등).
+  메인라인 포켓몬 상식을 덧붙이지 말 것.
+- 팀 제안 전 **반드시 `python validate_team.py`** 로 검증 (exit 0 전엔 제안하지 않는다).
+- 응답은 **한국어**. 사용률(percentage)을 근거로 제시.
+- 비주류(오프메타) 발굴은 사용자가 명시적으로 요청할 때만.
+
+## CLI 빠른 참조
+
+```bash
+python kb_search.py 한카리아스                  # 포켓몬 검색
+python offmeta.py --rank 화강돌                 # 비주류 순위
+python validate_team.py 팀/보유_트릭룸.json      # 팀 검증 (필수)
+python team_doc.py 팀/보유_트릭룸.json          # 팀 문서 자동 생성
+python team_score.py 팀/보유_트릭룸.json        # 팀 평가 (0~100점)
+python meta_trend.py --rising                  # 메타 순위 상승 Top
+```

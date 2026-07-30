@@ -1,0 +1,142 @@
+[
+ {
+  "regulation": "reg_mb",
+  "month": "2026-07",
+  "format": "singles",
+  "count": 230,
+  "file": "usage_reg_mb_2026-07_singles.json"
+ },
+ {
+  "regulation": "reg_mb",
+  "month": "2026-07",
+  "format": "doubles",
+  "count": 230,
+  "file": "usage_reg_mb_2026-07_doubles.json"
+ },
+ {
+  "regulation": "showdown-1760-regulation_ma",
+  "month": "2026-06",
+  "format": "singles",
+  "count": 212,
+  "file": "usage_showdown-1760-regulation_ma_2026-06_singles.json"
+ },
+ {
+  "regulation": "showdown-1760-regulation_ma",
+  "month": "2026-06",
+  "format": "doubles",
+  "count": 236,
+  "file": "usage_showdown-1760-regulation_ma_2026-06_doubles.json"
+ },
+ {
+  "regulation": "showdown-1630-regulation_ma",
+  "month": "2026-06",
+  "format": "singles",
+  "count": 219,
+  "file": "usage_showdown-1630-regulation_ma_2026-06_singles.json"
+ },
+ {
+  "regulation": "showdown-1630-regulation_ma",
+  "month": "2026-06",
+  "format": "doubles",
+  "count": 243,
+  "file": "usage_showdown-1630-regulation_ma_2026-06_doubles.json"
+ },
+ {
+  "regulation": "reg_mb",
+  "month": "2026-06",
+  "format": "singles",
+  "count": 230,
+  "file": "usage_reg_mb_2026-06_singles.json"
+ },
+ {
+  "regulation": "reg_mb",
+  "month": "2026-06",
+  "format": "doubles",
+  "count": 230,
+  "file": "usage_reg_mb_2026-06_doubles.json"
+ },
+ {
+  "regulation": "showdown-1760-regulation_ma",
+  "month": "2026-05",
+  "format": "singles",
+  "count": 242,
+  "file": "usage_showdown-1760-regulation_ma_2026-05_singles.json"
+ },
+ {
+  "regulation": "showdown-1760-regulation_ma",
+  "month": "2026-05",
+  "format": "doubles",
+  "count": 237,
+  "file": "usage_showdown-1760-regulation_ma_2026-05_doubles.json"
+ },
+ {
+  "regulation": "showdown-1630-regulation_ma",
+  "month": "2026-05",
+  "format": "singles",
+  "count": 240,
+  "file": "usage_showdown-1630-regulation_ma_2026-05_singles.json"
+ },
+ {
+  "regulation": "showdown-1630-regulation_ma",
+  "month": "2026-05",
+  "format": "doubles",
+  "count": 244,
+  "file": "usage_showdown-1630-regulation_ma_2026-05_doubles.json"
+ },
+ {
+  "regulation": "reg_m1",
+  "month": "2026-05",
+  "format": "singles",
+  "count": 209,
+  "file": "usage_reg_m1_2026-05_singles.json"
+ },
+ {
+  "regulation": "reg_m1",
+  "month": "2026-05",
+  "format": "doubles",
+  "count": 209,
+  "file": "usage_reg_m1_2026-05_doubles.json"
+ },
+ {
+  "regulation": "showdown-1760-regulation_ma",
+  "month": "2026-04",
+  "format": "singles",
+  "count": 245,
+  "file": "usage_showdown-1760-regulation_ma_2026-04_singles.json"
+ },
+ {
+  "regulation": "showdown-1760-regulation_ma",
+  "month": "2026-04",
+  "format": "doubles",
+  "count": 241,
+  "file": "usage_showdown-1760-regulation_ma_2026-04_doubles.json"
+ },
+ {
+  "regulation": "showdown-1630-regulation_ma",
+  "month": "2026-04",
+  "format": "singles",
+  "count": 251,
+  "file": "usage_showdown-1630-regulation_ma_2026-04_singles.json"
+ },
+ {
+  "regulation": "showdown-1630-regulation_ma",
+  "month": "2026-04",
+  "format": "doubles",
+  "count": 246,
+  "file": "usage_showdown-1630-regulation_ma_2026-04_doubles.json"
+ },
+ {
+  "regulation": "reg_m1",
+  "month": "2026-04",
+  "format": "singles",
+  "count": 213,
+  "file": "usage_reg_m1_2026-04_singles.json"
+ },
+ {
+  "regulation": "reg_m1",
+  "month": "2026-04",
+  "format": "doubles",
+  "count": 213,
+  "file": "usage_reg_m1_2026-04_doubles.json"
+ }
+]

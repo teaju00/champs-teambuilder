@@ -1,0 +1,111 @@
+{
+ "count": 7,
+ "guides": [
+  {
+   "slug": "ability",
+   "title": "특성 가이드",
+   "category": "포켓몬 요소",
+   "path": "guides/ability.md",
+   "chars": 2040,
+   "sections": [
+    "공격 강화",
+    "내구·생존",
+    "속도 관련",
+    "날씨·필드 세터",
+    "지원·심리전",
+    "tip"
+   ]
+  },
+  {
+   "slug": "accuracy",
+   "title": "명중률·회피율 가이드",
+   "category": "배틀 계산",
+   "path": "guides/accuracy.md",
+   "chars": 2847,
+   "sections": [
+    "계산식",
+    "특성",
+    "도구",
+    "기술",
+    "활용·확률"
+   ]
+  },
+  {
+   "slug": "stats",
+   "title": "능력치 가이드",
+   "category": "배틀 계산",
+   "path": "guides/stats.md",
+   "chars": 2565,
+   "sections": [
+    "기본 계산",
+    "성격",
+    "결정력·내구력",
+    "매직넘버"
+   ]
+  },
+  {
+   "slug": "status",
+   "title": "상태이상 가이드",
+   "category": "배틀 계산",
+   "path": "guides/status.md",
+   "chars": 4331,
+   "sections": [
+    "volatileNote",
+    "badge"
+   ]
+  },
+  {
+   "slug": "terrain",
+   "title": "필드 가이드",
+   "category": "필드·날씨",
+   "path": "guides/terrain.md",
+   "chars": 1175,
+   "sections": [
+    "일렉트릭필드",
+    "그래스필드",
+    "미스트필드",
+    "사이코필드"
+   ]
+  },
+  {
+   "slug": "type",
+   "title": "타입 가이드",
+   "category": "포켓몬 요소",
+   "path": "guides/type.md",
+   "chars": 3611,
+   "sections": [
+    "normal",
+    "fire",
+    "water",
+    "electric",
+    "grass",
+    "ice",
+    "fighting",
+    "poison",
+    "ground",
+    "flying",
+    "psychic",
+    "bug",
+    "rock",
+    "ghost",
+    "dragon",
+    "dark",
+    "steel",
+    "fairy"
+   ]
+  },
+  {
+   "slug": "weather",
+   "title": "날씨 가이드",
+   "category": "필드·날씨",
+   "path": "guides/weather.md",
+   "chars": 1375,
+   "sections": [
+    "쾌청",
+    "비",
+    "모래바람",
+    "눈 (싸라기눈)"
+   ]
+  }
+ ]
+}

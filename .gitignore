@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+
+# 데이터 갱신 산출물 (필요 시 재생성)
+cache/
+
+# ZCode 세션/계획 (로컬 전용)
+.zcode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 로컬 전용 (개인 권한 설정 등, 공유 대상 아님)
+.claude/settings.local.json

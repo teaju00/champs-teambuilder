@@ -1,0 +1,3808 @@
+{
+ "3": [
+  {
+   "name": "venusaur-mega",
+   "nameKo": "메가이상해꽃",
+   "nameJa": "メガフシギバナ",
+   "types": [
+    "grass",
+    "poison"
+   ],
+   "abilities": [
+    {
+     "name": "thick-fat",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 80,
+    "atk": 100,
+    "def": 123,
+    "spa": 122,
+    "spd": 120,
+    "spe": 80
+   },
+   "realStats": {
+    "hp": 155,
+    "atk": 120,
+    "def": 143,
+    "spa": 142,
+    "spd": 140,
+    "spe": 100
+   },
+   "weight": 1555,
+   "regulationMA": true,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 22165,
+    "spec0": 21700,
+    "physHp": 26741,
+    "specHp": 26180,
+    "physDef": 35904,
+    "specSpd": 35343
+   }
+  }
+ ],
+ "6": [
+  {
+   "name": "charizard-mega-x",
+   "nameKo": "메가리자몽X",
+   "nameJa": "メガリザードンＸ",
+   "types": [
+    "fire",
+    "dragon"
+   ],
+   "abilities": [
+    {
+     "name": "tough-claws",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 78,
+    "atk": 130,
+    "def": 111,
+    "spa": 130,
+    "spd": 85,
+    "spe": 100
+   },
+   "realStats": {
+    "hp": 153,
+    "atk": 150,
+    "def": 131,
+    "spa": 150,
+    "spd": 105,
+    "spe": 120
+   },
+   "weight": 1105,
+   "regulationMA": true,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 20043,
+    "spec0": 16065,
+    "physHp": 24235,
+    "specHp": 19425,
+    "physDef": 33115,
+    "specSpd": 27750
+   }
+  },
+  {
+   "name": "charizard-mega-y",
+   "nameKo": "메가리자몽Y",
+   "nameJa": "メガリザードンＹ",
+   "types": [
+    "fire",
+    "flying"
+   ],
+   "abilities": [
+    {
+     "name": "drought",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 78,
+    "atk": 104,
+    "def": 78,
+    "spa": 159,
+    "spd": 115,
+    "spe": 100
+   },
+   "realStats": {
+    "hp": 153,
+    "atk": 124,
+    "def": 98,
+    "spa": 179,
+    "spd": 135,
+    "spe": 120
+   },
+   "weight": 1005,
+   "regulationMA": true,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 14994,
+    "spec0": 20655,
+    "physHp": 18130,
+    "specHp": 24975,
+    "physDef": 26455,
+    "specSpd": 33855
+   }
+  }
+ ],
+ "9": [
+  {
+   "name": "blastoise-mega",
+   "nameKo": "메가거북왕",
+   "nameJa": "メガカメックス",
+   "types": [
+    "water"
+   ],
+   "abilities": [
+    {
+     "name": "mega-launcher",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 79,
+    "atk": 103,
+    "def": 120,
+    "spa": 135,
+    "spd": 115,
+    "spe": 78
+   },
+   "realStats": {
+    "hp": 154,
+    "atk": 123,
+    "def": 140,
+    "spa": 155,
+    "spd": 135,
+    "spe": 98
+   },
+   "weight": 1011,
+   "regulationMA": true,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 21560,
+    "spec0": 20790,
+    "physHp": 26040,
+    "specHp": 25110,
+    "physDef": 35154,
+    "specSpd": 34038
+   }
+  }
+ ],
+ "15": [
+  {
+   "name": "beedrill-mega",
+   "nameKo": "메가독침붕",
+   "nameJa": "メガスピアー",
+   "types": [
+    "bug",
+    "poison"
+   ],
+   "abilities": [
+    {
+     "name": "adaptability",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 65,
+    "atk": 150,
+    "def": 40,
+    "spa": 15,
+    "spd": 80,
+    "spe": 145
+   },
+   "realStats": {
+    "hp": 140,
+    "atk": 170,
+    "def": 60,
+    "spa": 35,
+    "spd": 100,
+    "spe": 165
+   },
+   "weight": 405,
+   "regulationMA": true,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 8400,
+    "spec0": 14000,
+    "physHp": 10320,
+    "specHp": 17200,
+    "physDef": 17372,
+    "specSpd": 24940
+   }
+  }
+ ],
+ "18": [
+  {
+   "name": "pidgeot-mega",
+   "nameKo": "메가피죤투",
+   "nameJa": "メガピジョット",
+   "types": [
+    "normal",
+    "flying"
+   ],
+   "abilities": [
+    {
+     "name": "no-guard",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 83,
+    "atk": 80,
+    "def": 80,
+    "spa": 135,
+    "spd": 80,
+    "spe": 121
+   },
+   "realStats": {
+    "hp": 158,
+    "atk": 100,
+    "def": 100,
+    "spa": 155,
+    "spd": 100,
+    "spe": 141
+   },
+   "weight": 505,
+   "regulationMA": true,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 15800,
+    "spec0": 15800,
+    "physHp": 19000,
+    "specHp": 19000,
+    "physDef": 27550,
+    "specSpd": 27550
+   }
+  }
+ ],
+ "26": [
+  {
+   "name": "raichu-mega-x",
+   "nameKo": "메가라이츄X",
+   "nameJa": "ライチュウ",
+   "types": [
+    "electric"
+   ],
+   "abilities": [
+    {
+     "name": "electric-surge",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 60,
+    "atk": 135,
+    "def": 95,
+    "spa": 90,
+    "spd": 95,
+    "spe": 110
+   },
+   "realStats": {
+    "hp": 135,
+    "atk": 155,
+    "def": 115,
+    "spa": 110,
+    "spd": 115,
+    "spe": 130
+   },
+   "weight": 380,
+   "regulationMA": false,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 15525,
+    "spec0": 15525,
+    "physHp": 19205,
+    "specHp": 19205,
+    "physDef": 26887,
+    "specSpd": 26887
+   }
+  },
+  {
+   "name": "raichu-mega-y",
+   "nameKo": "메가라이츄Y",
+   "nameJa": "ライチュウ",
+   "types": [
+    "electric"
+   ],
+   "abilities": [
+    {
+     "name": "no-guard",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 60,
+    "atk": 100,
+    "def": 55,
+    "spa": 160,
+    "spd": 80,
+    "spe": 130
+   },
+   "realStats": {
+    "hp": 135,
+    "atk": 120,
+    "def": 75,
+    "spa": 180,
+    "spd": 100,
+    "spe": 150
+   },
+   "weight": 260,
+   "regulationMA": false,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 10125,
+    "spec0": 13500,
+    "physHp": 12525,
+    "specHp": 16700,
+    "physDef": 19539,
+    "specSpd": 24215
+   }
+  }
+ ],
+ "36": [
+  {
+   "name": "clefable-mega",
+   "nameKo": "메가픽시",
+   "nameJa": "ピクシー",
+   "types": [
+    "fairy",
+    "flying"
+   ],
+   "abilities": [
+    {
+     "name": "magic-bounce",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 95,
+    "atk": 80,
+    "def": 93,
+    "spa": 135,
+    "spd": 110,
+    "spe": 70
+   },
+   "realStats": {
+    "hp": 170,
+    "atk": 100,
+    "def": 113,
+    "spa": 155,
+    "spd": 130,
+    "spe": 90
+   },
+   "weight": 423,
+   "regulationMA": true,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 19210,
+    "spec0": 22100,
+    "physHp": 22826,
+    "specHp": 26260,
+    "physDef": 32118,
+    "specSpd": 35956
+   }
+  }
+ ],
+ "45": [
+  {
+   "name": "vileplume-mega",
+   "nameKo": "메가라플레시아",
+   "nameJa": "メガラフレシア",
+   "types": [
+    "grass",
+    "poison"
+   ],
+   "abilities": [
+    {
+     "name": "effect-spore",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 75,
+    "atk": 80,
+    "def": 100,
+    "spa": 160,
+    "spd": 115,
+    "spe": 60
+   },
+   "realStats": {
+    "hp": 150,
+    "atk": 100,
+    "def": 120,
+    "spa": 180,
+    "spd": 135,
+    "spe": 80
+   },
+   "weight": 186,
+   "regulationMA": false,
+   "regulationMB": false,
+   "bulk": {
+    "phys0": 18000,
+    "spec0": 20250,
+    "physHp": 21840,
+    "specHp": 24570,
+    "physDef": 30394,
+    "specSpd": 33306
+   }
+  }
+ ],
+ "65": [
+  {
+   "name": "alakazam-mega",
+   "nameKo": "메가후딘",
+   "nameJa": "メガフーディン",
+   "types": [
+    "psychic"
+   ],
+   "abilities": [
+    {
+     "name": "trace",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 55,
+    "atk": 50,
+    "def": 65,
+    "spa": 175,
+    "spd": 105,
+    "spe": 150
+   },
+   "realStats": {
+    "hp": 130,
+    "atk": 70,
+    "def": 85,
+    "spa": 195,
+    "spd": 125,
+    "spe": 170
+   },
+   "weight": 480,
+   "regulationMA": true,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 11050,
+    "spec0": 16250,
+    "physHp": 13770,
+    "specHp": 20250,
+    "physDef": 20736,
+    "specSpd": 27864
+   }
+  }
+ ],
+ "71": [
+  {
+   "name": "victreebel-mega",
+   "nameKo": "메가우츠보트",
+   "nameJa": "ウツボット",
+   "types": [
+    "grass",
+    "poison"
+   ],
+   "abilities": [
+    {
+     "name": "liquid-ooze",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 80,
+    "atk": 125,
+    "def": 85,
+    "spa": 135,
+    "spd": 95,
+    "spe": 70
+   },
+   "realStats": {
+    "hp": 155,
+    "atk": 145,
+    "def": 105,
+    "spa": 155,
+    "spd": 115,
+    "spe": 90
+   },
+   "weight": 1255,
+   "regulationMA": true,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 16275,
+    "spec0": 17825,
+    "physHp": 19635,
+    "specHp": 21505,
+    "physDef": 28050,
+    "specSpd": 30107
+   }
+  }
+ ],
+ "80": [
+  {
+   "name": "slowbro-mega",
+   "nameKo": "메가야도란",
+   "nameJa": "メガヤドラン",
+   "types": [
+    "water",
+    "psychic"
+   ],
+   "abilities": [
+    {
+     "name": "shell-armor",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 95,
+    "atk": 75,
+    "def": 180,
+    "spa": 130,
+    "spd": 80,
+    "spe": 30
+   },
+   "realStats": {
+    "hp": 170,
+    "atk": 95,
+    "def": 200,
+    "spa": 150,
+    "spd": 100,
+    "spe": 50
+   },
+   "weight": 1200,
+   "regulationMA": true,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 34000,
+    "spec0": 17000,
+    "physHp": 40400,
+    "specHp": 20200,
+    "physDef": 51510,
+    "specSpd": 29290
+   }
+  }
+ ],
+ "94": [
+  {
+   "name": "gengar-mega",
+   "nameKo": "메가팬텀",
+   "nameJa": "メガゲンガー",
+   "types": [
+    "ghost",
+    "poison"
+   ],
+   "abilities": [
+    {
+     "name": "shadow-tag",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 60,
+    "atk": 65,
+    "def": 80,
+    "spa": 170,
+    "spd": 95,
+    "spe": 130
+   },
+   "realStats": {
+    "hp": 135,
+    "atk": 85,
+    "def": 100,
+    "spa": 190,
+    "spd": 115,
+    "spe": 150
+   },
+   "weight": 405,
+   "regulationMA": true,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 13500,
+    "spec0": 15525,
+    "physHp": 16700,
+    "specHp": 19205,
+    "physDef": 24215,
+    "specSpd": 26887
+   }
+  }
+ ],
+ "115": [
+  {
+   "name": "kangaskhan-mega",
+   "nameKo": "메가캥카",
+   "nameJa": "メガガルーラ",
+   "types": [
+    "normal"
+   ],
+   "abilities": [
+    {
+     "name": "parental-bond",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 105,
+    "atk": 125,
+    "def": 100,
+    "spa": 60,
+    "spd": 100,
+    "spe": 100
+   },
+   "realStats": {
+    "hp": 180,
+    "atk": 145,
+    "def": 120,
+    "spa": 80,
+    "spd": 120,
+    "spe": 120
+   },
+   "weight": 1000,
+   "regulationMA": true,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 21600,
+    "spec0": 21600,
+    "physHp": 25440,
+    "specHp": 25440,
+    "physDef": 35404,
+    "specSpd": 35404
+   }
+  }
+ ],
+ "121": [
+  {
+   "name": "starmie-mega",
+   "nameKo": "메가아쿠스타",
+   "nameJa": "スターミー",
+   "types": [
+    "water",
+    "psychic"
+   ],
+   "abilities": [
+    {
+     "name": "huge-power",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 60,
+    "atk": 100,
+    "def": 105,
+    "spa": 130,
+    "spd": 105,
+    "spe": 120
+   },
+   "realStats": {
+    "hp": 135,
+    "atk": 120,
+    "def": 125,
+    "spa": 150,
+    "spd": 125,
+    "spe": 140
+   },
+   "weight": 800,
+   "regulationMA": true,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 16875,
+    "spec0": 16875,
+    "physHp": 20875,
+    "specHp": 20875,
+    "physDef": 28724,
+    "specSpd": 28724
+   }
+  }
+ ],
+ "127": [
+  {
+   "name": "pinsir-mega",
+   "nameKo": "메가쁘사이저",
+   "nameJa": "メガカイロス",
+   "types": [
+    "bug",
+    "flying"
+   ],
+   "abilities": [
+    {
+     "name": "aerilate",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 65,
+    "atk": 155,
+    "def": 120,
+    "spa": 65,
+    "spd": 90,
+    "spe": 105
+   },
+   "realStats": {
+    "hp": 140,
+    "atk": 175,
+    "def": 140,
+    "spa": 85,
+    "spd": 110,
+    "spe": 125
+   },
+   "weight": 590,
+   "regulationMA": true,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 19600,
+    "spec0": 15400,
+    "physHp": 24080,
+    "specHp": 18920,
+    "physDef": 32508,
+    "specSpd": 26832
+   }
+  }
+ ],
+ "130": [
+  {
+   "name": "gyarados-mega",
+   "nameKo": "메가갸라도스",
+   "nameJa": "メガギャラドス",
+   "types": [
+    "water",
+    "dark"
+   ],
+   "abilities": [
+    {
+     "name": "mold-breaker",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 95,
+    "atk": 155,
+    "def": 109,
+    "spa": 70,
+    "spd": 130,
+    "spe": 81
+   },
+   "realStats": {
+    "hp": 170,
+    "atk": 175,
+    "def": 129,
+    "spa": 90,
+    "spd": 150,
+    "spe": 101
+   },
+   "weight": 3050,
+   "regulationMA": true,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 21930,
+    "spec0": 25500,
+    "physHp": 26058,
+    "specHp": 30300,
+    "physDef": 35754,
+    "specSpd": 40400
+   }
+  }
+ ],
+ "142": [
+  {
+   "name": "aerodactyl-mega",
+   "nameKo": "메가프테라",
+   "nameJa": "メガプテラ",
+   "types": [
+    "rock",
+    "flying"
+   ],
+   "abilities": [
+    {
+     "name": "tough-claws",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 80,
+    "atk": 135,
+    "def": 85,
+    "spa": 70,
+    "spd": 95,
+    "spe": 150
+   },
+   "realStats": {
+    "hp": 155,
+    "atk": 155,
+    "def": 105,
+    "spa": 90,
+    "spd": 115,
+    "spe": 170
+   },
+   "weight": 790,
+   "regulationMA": true,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 16275,
+    "spec0": 17825,
+    "physHp": 19635,
+    "specHp": 21505,
+    "physDef": 28050,
+    "specSpd": 30107
+   }
+  }
+ ],
+ "149": [
+  {
+   "name": "dragonite-mega",
+   "nameKo": "메가망나뇽",
+   "nameJa": "カイリュー",
+   "types": [
+    "dragon",
+    "flying"
+   ],
+   "abilities": [
+    {
+     "name": "multiscale",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 91,
+    "atk": 124,
+    "def": 115,
+    "spa": 145,
+    "spd": 125,
+    "spe": 100
+   },
+   "realStats": {
+    "hp": 166,
+    "atk": 144,
+    "def": 135,
+    "spa": 165,
+    "spd": 145,
+    "spe": 120
+   },
+   "weight": 2900,
+   "regulationMA": true,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 22410,
+    "spec0": 24070,
+    "physHp": 26730,
+    "specHp": 28710,
+    "physDef": 36234,
+    "specSpd": 38412
+   }
+  }
+ ],
+ "150": [
+  {
+   "name": "mewtwo-mega-x",
+   "nameKo": "메가뮤츠X",
+   "nameJa": "メガミュウツーＸ",
+   "types": [
+    "psychic",
+    "fighting"
+   ],
+   "abilities": [
+    {
+     "name": "steadfast",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 106,
+    "atk": 190,
+    "def": 100,
+    "spa": 154,
+    "spd": 100,
+    "spe": 130
+   },
+   "realStats": {
+    "hp": 181,
+    "atk": 210,
+    "def": 120,
+    "spa": 174,
+    "spd": 120,
+    "spe": 150
+   },
+   "weight": 1270,
+   "regulationMA": false,
+   "regulationMB": false,
+   "bulk": {
+    "phys0": 21720,
+    "spec0": 21720,
+    "physHp": 25560,
+    "specHp": 25560,
+    "physDef": 35571,
+    "specSpd": 35571
+   }
+  },
+  {
+   "name": "mewtwo-mega-y",
+   "nameKo": "메가뮤츠Y",
+   "nameJa": "メガミュウツーＹ",
+   "types": [
+    "psychic"
+   ],
+   "abilities": [
+    {
+     "name": "insomnia",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 106,
+    "atk": 150,
+    "def": 70,
+    "spa": 194,
+    "spd": 120,
+    "spe": 140
+   },
+   "realStats": {
+    "hp": 181,
+    "atk": 170,
+    "def": 90,
+    "spa": 214,
+    "spd": 140,
+    "spe": 160
+   },
+   "weight": 330,
+   "regulationMA": false,
+   "regulationMB": false,
+   "bulk": {
+    "phys0": 16290,
+    "spec0": 25340,
+    "physHp": 19170,
+    "specHp": 29820,
+    "physDef": 28542,
+    "specSpd": 40257
+   }
+  }
+ ],
+ "154": [
+  {
+   "name": "meganium-mega",
+   "nameKo": "메가메가니움",
+   "nameJa": "メガニウム",
+   "types": [
+    "grass",
+    "fairy"
+   ],
+   "abilities": [
+    {
+     "name": "mega-sol",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 80,
+    "atk": 92,
+    "def": 115,
+    "spa": 143,
+    "spd": 115,
+    "spe": 80
+   },
+   "realStats": {
+    "hp": 155,
+    "atk": 112,
+    "def": 135,
+    "spa": 163,
+    "spd": 135,
+    "spe": 100
+   },
+   "weight": 2010,
+   "regulationMA": true,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 20925,
+    "spec0": 20925,
+    "physHp": 25245,
+    "specHp": 25245,
+    "physDef": 34221,
+    "specSpd": 34221
+   }
+  }
+ ],
+ "160": [
+  {
+   "name": "feraligatr-mega",
+   "nameKo": "메가장크로다일",
+   "nameJa": "オーダイル",
+   "types": [
+    "water",
+    "dragon"
+   ],
+   "abilities": [
+    {
+     "name": "dragonize",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 85,
+    "atk": 160,
+    "def": 125,
+    "spa": 89,
+    "spd": 93,
+    "spe": 78
+   },
+   "realStats": {
+    "hp": 160,
+    "atk": 180,
+    "def": 145,
+    "spa": 109,
+    "spd": 113,
+    "spe": 98
+   },
+   "weight": 1088,
+   "regulationMA": true,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 23200,
+    "spec0": 18080,
+    "physHp": 27840,
+    "specHp": 21696,
+    "physDef": 37248,
+    "specSpd": 30528
+   }
+  }
+ ],
+ "181": [
+  {
+   "name": "ampharos-mega",
+   "nameKo": "메가전룡",
+   "nameJa": "メガデンリュウ",
+   "types": [
+    "electric",
+    "dragon"
+   ],
+   "abilities": [
+    {
+     "name": "mold-breaker",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 90,
+    "atk": 95,
+    "def": 105,
+    "spa": 165,
+    "spd": 110,
+    "spe": 45
+   },
+   "realStats": {
+    "hp": 165,
+    "atk": 115,
+    "def": 125,
+    "spa": 185,
+    "spd": 130,
+    "spe": 65
+   },
+   "weight": 615,
+   "regulationMA": true,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 20625,
+    "spec0": 21450,
+    "physHp": 24625,
+    "specHp": 25610,
+    "physDef": 33884,
+    "specSpd": 35066
+   }
+  }
+ ],
+ "208": [
+  {
+   "name": "steelix-mega",
+   "nameKo": "메가강철톤",
+   "nameJa": "メガハガネール",
+   "types": [
+    "steel",
+    "ground"
+   ],
+   "abilities": [
+    {
+     "name": "sand-force",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 75,
+    "atk": 125,
+    "def": 230,
+    "spa": 55,
+    "spd": 95,
+    "spe": 30
+   },
+   "realStats": {
+    "hp": 150,
+    "atk": 145,
+    "def": 250,
+    "spa": 75,
+    "spd": 115,
+    "spe": 50
+   },
+   "weight": 7400,
+   "regulationMA": true,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 37500,
+    "spec0": 17250,
+    "physHp": 45500,
+    "specHp": 20930,
+    "physDef": 56420,
+    "specSpd": 29302
+   }
+  }
+ ],
+ "212": [
+  {
+   "name": "scizor-mega",
+   "nameKo": "메가핫삼",
+   "nameJa": "メガハッサム",
+   "types": [
+    "bug",
+    "steel"
+   ],
+   "abilities": [
+    {
+     "name": "technician",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 70,
+    "atk": 150,
+    "def": 140,
+    "spa": 65,
+    "spd": 100,
+    "spe": 75
+   },
+   "realStats": {
+    "hp": 145,
+    "atk": 170,
+    "def": 160,
+    "spa": 85,
+    "spd": 120,
+    "spe": 95
+   },
+   "weight": 1250,
+   "regulationMA": true,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 23200,
+    "spec0": 17400,
+    "physHp": 28320,
+    "specHp": 21240,
+    "physDef": 37347,
+    "specSpd": 29559
+   }
+  }
+ ],
+ "214": [
+  {
+   "name": "heracross-mega",
+   "nameKo": "메가헤라크로스",
+   "nameJa": "メガヘラクロス",
+   "types": [
+    "bug",
+    "fighting"
+   ],
+   "abilities": [
+    {
+     "name": "skill-link",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 80,
+    "atk": 185,
+    "def": 115,
+    "spa": 40,
+    "spd": 105,
+    "spe": 75
+   },
+   "realStats": {
+    "hp": 155,
+    "atk": 205,
+    "def": 135,
+    "spa": 60,
+    "spd": 125,
+    "spe": 95
+   },
+   "weight": 625,
+   "regulationMA": true,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 20925,
+    "spec0": 19375,
+    "physHp": 25245,
+    "specHp": 23375,
+    "physDef": 34221,
+    "specSpd": 32164
+   }
+  }
+ ],
+ "227": [
+  {
+   "name": "skarmory-mega",
+   "nameKo": "메가무장조",
+   "nameJa": "エアームド",
+   "types": [
+    "steel",
+    "flying"
+   ],
+   "abilities": [
+    {
+     "name": "stalwart",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 65,
+    "atk": 140,
+    "def": 110,
+    "spa": 40,
+    "spd": 100,
+    "spe": 110
+   },
+   "realStats": {
+    "hp": 140,
+    "atk": 160,
+    "def": 130,
+    "spa": 60,
+    "spd": 120,
+    "spe": 130
+   },
+   "weight": 404,
+   "regulationMA": true,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 18200,
+    "spec0": 16800,
+    "physHp": 22360,
+    "specHp": 20640,
+    "physDef": 30616,
+    "specSpd": 28724
+   }
+  }
+ ],
+ "229": [
+  {
+   "name": "houndoom-mega",
+   "nameKo": "메가헬가",
+   "nameJa": "メガヘルガー",
+   "types": [
+    "dark",
+    "fire"
+   ],
+   "abilities": [
+    {
+     "name": "solar-power",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 75,
+    "atk": 90,
+    "def": 90,
+    "spa": 140,
+    "spd": 90,
+    "spe": 115
+   },
+   "realStats": {
+    "hp": 150,
+    "atk": 110,
+    "def": 110,
+    "spa": 160,
+    "spd": 110,
+    "spe": 135
+   },
+   "weight": 495,
+   "regulationMA": true,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 16500,
+    "spec0": 16500,
+    "physHp": 20020,
+    "specHp": 20020,
+    "physDef": 28392,
+    "specSpd": 28392
+   }
+  }
+ ],
+ "248": [
+  {
+   "name": "tyranitar-mega",
+   "nameKo": "메가마기라스",
+   "nameJa": "メガバンギラス",
+   "types": [
+    "rock",
+    "dark"
+   ],
+   "abilities": [
+    {
+     "name": "sand-stream",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 100,
+    "atk": 164,
+    "def": 150,
+    "spa": 95,
+    "spd": 120,
+    "spe": 71
+   },
+   "realStats": {
+    "hp": 175,
+    "atk": 184,
+    "def": 170,
+    "spa": 115,
+    "spd": 140,
+    "spe": 91
+   },
+   "weight": 2550,
+   "regulationMA": true,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 29750,
+    "spec0": 24500,
+    "physHp": 35190,
+    "specHp": 28980,
+    "physDef": 45954,
+    "specSpd": 39123
+   }
+  }
+ ],
+ "254": [
+  {
+   "name": "sceptile-mega",
+   "nameKo": "메가나무킹",
+   "nameJa": "メガジュカイン",
+   "types": [
+    "grass",
+    "dragon"
+   ],
+   "abilities": [
+    {
+     "name": "lightning-rod",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 70,
+    "atk": 110,
+    "def": 75,
+    "spa": 145,
+    "spd": 85,
+    "spe": 145
+   },
+   "realStats": {
+    "hp": 145,
+    "atk": 130,
+    "def": 95,
+    "spa": 165,
+    "spd": 105,
+    "spe": 165
+   },
+   "weight": 552,
+   "regulationMA": false,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 13775,
+    "spec0": 15225,
+    "physHp": 16815,
+    "specHp": 18585,
+    "physDef": 24603,
+    "specSpd": 26550
+   }
+  }
+ ],
+ "257": [
+  {
+   "name": "blaziken-mega",
+   "nameKo": "메가번치코",
+   "nameJa": "メガバシャーモ",
+   "types": [
+    "fire",
+    "fighting"
+   ],
+   "abilities": [
+    {
+     "name": "speed-boost",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 80,
+    "atk": 160,
+    "def": 80,
+    "spa": 130,
+    "spd": 80,
+    "spe": 100
+   },
+   "realStats": {
+    "hp": 155,
+    "atk": 180,
+    "def": 100,
+    "spa": 150,
+    "spd": 100,
+    "spe": 120
+   },
+   "weight": 520,
+   "regulationMA": false,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 15500,
+    "spec0": 15500,
+    "physHp": 18700,
+    "specHp": 18700,
+    "physDef": 27115,
+    "specSpd": 27115
+   }
+  }
+ ],
+ "260": [
+  {
+   "name": "swampert-mega",
+   "nameKo": "메가대짱이",
+   "nameJa": "メガラグラージ",
+   "types": [
+    "water",
+    "ground"
+   ],
+   "abilities": [
+    {
+     "name": "swift-swim",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 100,
+    "atk": 150,
+    "def": 110,
+    "spa": 95,
+    "spd": 110,
+    "spe": 70
+   },
+   "realStats": {
+    "hp": 175,
+    "atk": 170,
+    "def": 130,
+    "spa": 115,
+    "spd": 130,
+    "spe": 90
+   },
+   "weight": 1020,
+   "regulationMA": false,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 22750,
+    "spec0": 22750,
+    "physHp": 26910,
+    "specHp": 26910,
+    "physDef": 36846,
+    "specSpd": 36846
+   }
+  }
+ ],
+ "282": [
+  {
+   "name": "gardevoir-mega",
+   "nameKo": "메가가디안",
+   "nameJa": "メガサーナイト",
+   "types": [
+    "psychic",
+    "fairy"
+   ],
+   "abilities": [
+    {
+     "name": "pixilate",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 68,
+    "atk": 85,
+    "def": 65,
+    "spa": 165,
+    "spd": 135,
+    "spe": 100
+   },
+   "realStats": {
+    "hp": 143,
+    "atk": 105,
+    "def": 85,
+    "spa": 185,
+    "spd": 155,
+    "spe": 120
+   },
+   "weight": 484,
+   "regulationMA": true,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 12155,
+    "spec0": 22165,
+    "physHp": 14875,
+    "specHp": 27125,
+    "physDef": 22400,
+    "specSpd": 35875
+   }
+  }
+ ],
+ "302": [
+  {
+   "name": "sableye-mega",
+   "nameKo": "메가깜까미",
+   "nameJa": "メガヤミラミ",
+   "types": [
+    "dark",
+    "ghost"
+   ],
+   "abilities": [
+    {
+     "name": "magic-bounce",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 50,
+    "atk": 85,
+    "def": 125,
+    "spa": 85,
+    "spd": 115,
+    "spe": 20
+   },
+   "realStats": {
+    "hp": 125,
+    "atk": 105,
+    "def": 145,
+    "spa": 105,
+    "spd": 135,
+    "spe": 40
+   },
+   "weight": 1610,
+   "regulationMA": true,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 18125,
+    "spec0": 16875,
+    "physHp": 22765,
+    "specHp": 21195,
+    "physDef": 30458,
+    "specSpd": 28731
+   }
+  }
+ ],
+ "303": [
+  {
+   "name": "mawile-mega",
+   "nameKo": "메가입치트",
+   "nameJa": "メガクチート",
+   "types": [
+    "steel",
+    "fairy"
+   ],
+   "abilities": [
+    {
+     "name": "huge-power",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 50,
+    "atk": 105,
+    "def": 125,
+    "spa": 55,
+    "spd": 95,
+    "spe": 50
+   },
+   "realStats": {
+    "hp": 125,
+    "atk": 125,
+    "def": 145,
+    "spa": 75,
+    "spd": 115,
+    "spe": 70
+   },
+   "weight": 235,
+   "regulationMA": false,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 18125,
+    "spec0": 14375,
+    "physHp": 22765,
+    "specHp": 18055,
+    "physDef": 30458,
+    "specSpd": 25277
+   }
+  }
+ ],
+ "306": [
+  {
+   "name": "aggron-mega",
+   "nameKo": "메가보스로라",
+   "nameJa": "メガボスゴドラ",
+   "types": [
+    "steel"
+   ],
+   "abilities": [
+    {
+     "name": "filter",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 70,
+    "atk": 140,
+    "def": 230,
+    "spa": 60,
+    "spd": 80,
+    "spe": 50
+   },
+   "realStats": {
+    "hp": 145,
+    "atk": 160,
+    "def": 250,
+    "spa": 80,
+    "spd": 100,
+    "spe": 70
+   },
+   "weight": 3950,
+   "regulationMA": true,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 36250,
+    "spec0": 14500,
+    "physHp": 44250,
+    "specHp": 17700,
+    "physDef": 54870,
+    "specSpd": 25665
+   }
+  }
+ ],
+ "308": [
+  {
+   "name": "medicham-mega",
+   "nameKo": "메가요가램",
+   "nameJa": "メガチャーレム",
+   "types": [
+    "fighting",
+    "psychic"
+   ],
+   "abilities": [
+    {
+     "name": "pure-power",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 60,
+    "atk": 100,
+    "def": 85,
+    "spa": 80,
+    "spd": 85,
+    "spe": 100
+   },
+   "realStats": {
+    "hp": 135,
+    "atk": 120,
+    "def": 105,
+    "spa": 100,
+    "spd": 105,
+    "spe": 120
+   },
+   "weight": 315,
+   "regulationMA": true,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 14175,
+    "spec0": 14175,
+    "physHp": 17535,
+    "specHp": 17535,
+    "physDef": 25050,
+    "specSpd": 25050
+   }
+  }
+ ],
+ "310": [
+  {
+   "name": "manectric-mega",
+   "nameKo": "메가썬더볼트",
+   "nameJa": "メガライボルト",
+   "types": [
+    "electric"
+   ],
+   "abilities": [
+    {
+     "name": "intimidate",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 70,
+    "atk": 75,
+    "def": 80,
+    "spa": 135,
+    "spd": 80,
+    "spe": 135
+   },
+   "realStats": {
+    "hp": 145,
+    "atk": 95,
+    "def": 100,
+    "spa": 155,
+    "spd": 100,
+    "spe": 155
+   },
+   "weight": 440,
+   "regulationMA": true,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 14500,
+    "spec0": 14500,
+    "physHp": 17700,
+    "specHp": 17700,
+    "physDef": 25665,
+    "specSpd": 25665
+   }
+  }
+ ],
+ "319": [
+  {
+   "name": "sharpedo-mega",
+   "nameKo": "메가샤크니아",
+   "nameJa": "メガサメハダー",
+   "types": [
+    "water",
+    "dark"
+   ],
+   "abilities": [
+    {
+     "name": "strong-jaw",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 70,
+    "atk": 140,
+    "def": 70,
+    "spa": 110,
+    "spd": 65,
+    "spe": 105
+   },
+   "realStats": {
+    "hp": 145,
+    "atk": 160,
+    "def": 90,
+    "spa": 130,
+    "spd": 85,
+    "spe": 125
+   },
+   "weight": 1303,
+   "regulationMA": true,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 13050,
+    "spec0": 12325,
+    "physHp": 15930,
+    "specHp": 15045,
+    "physDef": 23718,
+    "specSpd": 22656
+   }
+  }
+ ],
+ "323": [
+  {
+   "name": "camerupt-mega",
+   "nameKo": "메가폭타",
+   "nameJa": "メガバクーダ",
+   "types": [
+    "fire",
+    "ground"
+   ],
+   "abilities": [
+    {
+     "name": "sheer-force",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 70,
+    "atk": 120,
+    "def": 100,
+    "spa": 145,
+    "spd": 105,
+    "spe": 20
+   },
+   "realStats": {
+    "hp": 145,
+    "atk": 140,
+    "def": 120,
+    "spa": 165,
+    "spd": 125,
+    "spe": 40
+   },
+   "weight": 3205,
+   "regulationMA": true,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 17400,
+    "spec0": 18125,
+    "physHp": 21240,
+    "specHp": 22125,
+    "physDef": 29559,
+    "specSpd": 30444
+   }
+  }
+ ],
+ "334": [
+  {
+   "name": "altaria-mega",
+   "nameKo": "메가파비코리",
+   "nameJa": "メガチルタリス",
+   "types": [
+    "dragon",
+    "fairy"
+   ],
+   "abilities": [
+    {
+     "name": "pixilate",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 75,
+    "atk": 110,
+    "def": 110,
+    "spa": 110,
+    "spd": 105,
+    "spe": 80
+   },
+   "realStats": {
+    "hp": 150,
+    "atk": 130,
+    "def": 130,
+    "spa": 130,
+    "spd": 125,
+    "spe": 100
+   },
+   "weight": 206,
+   "regulationMA": true,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 19500,
+    "spec0": 18750,
+    "physHp": 23660,
+    "specHp": 22750,
+    "physDef": 32396,
+    "specSpd": 31304
+   }
+  }
+ ],
+ "354": [
+  {
+   "name": "banette-mega",
+   "nameKo": "메가다크펫",
+   "nameJa": "メガジュペッタ",
+   "types": [
+    "ghost"
+   ],
+   "abilities": [
+    {
+     "name": "prankster",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 64,
+    "atk": 165,
+    "def": 75,
+    "spa": 93,
+    "spd": 83,
+    "spe": 75
+   },
+   "realStats": {
+    "hp": 139,
+    "atk": 185,
+    "def": 95,
+    "spa": 113,
+    "spd": 103,
+    "spe": 95
+   },
+   "weight": 130,
+   "regulationMA": true,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 13205,
+    "spec0": 14317,
+    "physHp": 16245,
+    "specHp": 17613,
+    "physDef": 23769,
+    "specSpd": 25308
+   }
+  }
+ ],
+ "358": [
+  {
+   "name": "chimecho-mega",
+   "nameKo": "메가치렁",
+   "nameJa": "チリーン",
+   "types": [
+    "psychic",
+    "steel"
+   ],
+   "abilities": [
+    {
+     "name": "levitate",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 75,
+    "atk": 50,
+    "def": 110,
+    "spa": 145,
+    "spd": 120,
+    "spe": 55
+   },
+   "realStats": {
+    "hp": 150,
+    "atk": 70,
+    "def": 130,
+    "spa": 165,
+    "spd": 140,
+    "spe": 75
+   },
+   "weight": 80,
+   "regulationMA": true,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 19500,
+    "spec0": 21000,
+    "physHp": 23660,
+    "specHp": 25480,
+    "physDef": 32396,
+    "specSpd": 34398
+   }
+  }
+ ],
+ "359": [
+  {
+   "name": "absol-mega",
+   "nameKo": "메가앱솔",
+   "nameJa": "メガアブソル",
+   "types": [
+    "dark"
+   ],
+   "abilities": [
+    {
+     "name": "magic-bounce",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 65,
+    "atk": 150,
+    "def": 60,
+    "spa": 115,
+    "spd": 60,
+    "spe": 115
+   },
+   "realStats": {
+    "hp": 140,
+    "atk": 170,
+    "def": 80,
+    "spa": 135,
+    "spd": 80,
+    "spe": 135
+   },
+   "weight": 490,
+   "regulationMA": true,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 11200,
+    "spec0": 11200,
+    "physHp": 13760,
+    "specHp": 13760,
+    "physDef": 21156,
+    "specSpd": 21156
+   }
+  }
+ ],
+ "362": [
+  {
+   "name": "glalie-mega",
+   "nameKo": "메가얼음귀신",
+   "nameJa": "メガオニゴーリ",
+   "types": [
+    "ice"
+   ],
+   "abilities": [
+    {
+     "name": "refrigerate",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 80,
+    "atk": 120,
+    "def": 80,
+    "spa": 120,
+    "spd": 80,
+    "spe": 100
+   },
+   "realStats": {
+    "hp": 155,
+    "atk": 140,
+    "def": 100,
+    "spa": 140,
+    "spd": 100,
+    "spe": 120
+   },
+   "weight": 3502,
+   "regulationMA": true,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 15500,
+    "spec0": 15500,
+    "physHp": 18700,
+    "specHp": 18700,
+    "physDef": 27115,
+    "specSpd": 27115
+   }
+  }
+ ],
+ "373": [
+  {
+   "name": "salamence-mega",
+   "nameKo": "메가보만다",
+   "nameJa": "メガボーマンダ",
+   "types": [
+    "dragon",
+    "flying"
+   ],
+   "abilities": [
+    {
+     "name": "aerilate",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 95,
+    "atk": 145,
+    "def": 130,
+    "spa": 120,
+    "spd": 90,
+    "spe": 120
+   },
+   "realStats": {
+    "hp": 170,
+    "atk": 165,
+    "def": 150,
+    "spa": 140,
+    "spd": 110,
+    "spe": 140
+   },
+   "weight": 1126,
+   "regulationMA": false,
+   "regulationMB": false,
+   "bulk": {
+    "phys0": 25500,
+    "spec0": 18700,
+    "physHp": 30300,
+    "specHp": 22220,
+    "physDef": 40400,
+    "specSpd": 31512
+   }
+  }
+ ],
+ "376": [
+  {
+   "name": "metagross-mega",
+   "nameKo": "메가메타그로스",
+   "nameJa": "メガメタグロス",
+   "types": [
+    "steel",
+    "psychic"
+   ],
+   "abilities": [
+    {
+     "name": "tough-claws",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 80,
+    "atk": 145,
+    "def": 150,
+    "spa": 105,
+    "spd": 110,
+    "spe": 110
+   },
+   "realStats": {
+    "hp": 155,
+    "atk": 165,
+    "def": 170,
+    "spa": 125,
+    "spd": 130,
+    "spe": 130
+   },
+   "weight": 9429,
+   "regulationMA": false,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 26350,
+    "spec0": 20150,
+    "physHp": 31790,
+    "specHp": 24310,
+    "physDef": 41514,
+    "specSpd": 33286
+   }
+  }
+ ],
+ "380": [
+  {
+   "name": "latias-mega",
+   "nameKo": "메가라티아스",
+   "nameJa": "メガラティアス",
+   "types": [
+    "dragon",
+    "psychic"
+   ],
+   "abilities": [
+    {
+     "name": "levitate",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 80,
+    "atk": 100,
+    "def": 120,
+    "spa": 140,
+    "spd": 150,
+    "spe": 110
+   },
+   "realStats": {
+    "hp": 155,
+    "atk": 120,
+    "def": 140,
+    "spa": 160,
+    "spd": 170,
+    "spe": 130
+   },
+   "weight": 520,
+   "regulationMA": false,
+   "regulationMB": false,
+   "bulk": {
+    "phys0": 21700,
+    "spec0": 26350,
+    "physHp": 26180,
+    "specHp": 31790,
+    "physDef": 35343,
+    "specSpd": 41514
+   }
+  }
+ ],
+ "381": [
+  {
+   "name": "latios-mega",
+   "nameKo": "메가라티오스",
+   "nameJa": "メガラティオス",
+   "types": [
+    "dragon",
+    "psychic"
+   ],
+   "abilities": [
+    {
+     "name": "levitate",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 80,
+    "atk": 130,
+    "def": 100,
+    "spa": 160,
+    "spd": 120,
+    "spe": 110
+   },
+   "realStats": {
+    "hp": 155,
+    "atk": 150,
+    "def": 120,
+    "spa": 180,
+    "spd": 140,
+    "spe": 130
+   },
+   "weight": 700,
+   "regulationMA": false,
+   "regulationMB": false,
+   "bulk": {
+    "phys0": 18600,
+    "spec0": 21700,
+    "physHp": 22440,
+    "specHp": 26180,
+    "physDef": 31229,
+    "specSpd": 35343
+   }
+  }
+ ],
+ "384": [
+  {
+   "name": "rayquaza-mega",
+   "nameKo": "메가레쿠쟈",
+   "nameJa": "メガレックウザ",
+   "types": [
+    "dragon",
+    "flying"
+   ],
+   "abilities": [
+    {
+     "name": "delta-stream",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 105,
+    "atk": 180,
+    "def": 100,
+    "spa": 180,
+    "spd": 100,
+    "spe": 115
+   },
+   "realStats": {
+    "hp": 180,
+    "atk": 200,
+    "def": 120,
+    "spa": 200,
+    "spd": 120,
+    "spe": 135
+   },
+   "weight": 3920,
+   "regulationMA": false,
+   "regulationMB": false,
+   "bulk": {
+    "phys0": 21600,
+    "spec0": 21600,
+    "physHp": 25440,
+    "specHp": 25440,
+    "physDef": 35404,
+    "specSpd": 35404
+   }
+  }
+ ],
+ "398": [
+  {
+   "name": "staraptor-mega",
+   "nameKo": "메가찌르호크",
+   "nameJa": "メガムクホーク",
+   "types": [
+    "fighting",
+    "flying"
+   ],
+   "abilities": [
+    {
+     "name": "contrary",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 85,
+    "atk": 140,
+    "def": 100,
+    "spa": 60,
+    "spd": 90,
+    "spe": 110
+   },
+   "realStats": {
+    "hp": 160,
+    "atk": 160,
+    "def": 120,
+    "spa": 80,
+    "spd": 110,
+    "spe": 130
+   },
+   "weight": 249,
+   "regulationMA": false,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 19200,
+    "spec0": 17600,
+    "physHp": 23040,
+    "specHp": 21120,
+    "physDef": 32064,
+    "specSpd": 29952
+   }
+  }
+ ],
+ "428": [
+  {
+   "name": "lopunny-mega",
+   "nameKo": "메가이어롭",
+   "nameJa": "メガミミロップ",
+   "types": [
+    "normal",
+    "fighting"
+   ],
+   "abilities": [
+    {
+     "name": "scrappy",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 65,
+    "atk": 136,
+    "def": 94,
+    "spa": 54,
+    "spd": 96,
+    "spe": 135
+   },
+   "realStats": {
+    "hp": 140,
+    "atk": 156,
+    "def": 114,
+    "spa": 74,
+    "spd": 116,
+    "spe": 155
+   },
+   "weight": 283,
+   "regulationMA": true,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 15960,
+    "spec0": 16240,
+    "physHp": 19608,
+    "specHp": 19952,
+    "physDef": 27520,
+    "specSpd": 27864
+   }
+  }
+ ],
+ "445": [
+  {
+   "name": "garchomp-mega",
+   "nameKo": "메가한카리아스",
+   "nameJa": "メガガブリアス",
+   "types": [
+    "dragon",
+    "ground"
+   ],
+   "abilities": [
+    {
+     "name": "sand-force",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 108,
+    "atk": 170,
+    "def": 115,
+    "spa": 120,
+    "spd": 95,
+    "spe": 92
+   },
+   "realStats": {
+    "hp": 183,
+    "atk": 190,
+    "def": 135,
+    "spa": 140,
+    "spd": 115,
+    "spe": 112
+   },
+   "weight": 950,
+   "regulationMA": true,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 24705,
+    "spec0": 21045,
+    "physHp": 29025,
+    "specHp": 24725,
+    "physDef": 39345,
+    "specSpd": 34615
+   }
+  }
+ ],
+ "448": [
+  {
+   "name": "lucario-mega",
+   "nameKo": "메가루카리오",
+   "nameJa": "メガルカリオ",
+   "types": [
+    "fighting",
+    "steel"
+   ],
+   "abilities": [
+    {
+     "name": "adaptability",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 70,
+    "atk": 145,
+    "def": 88,
+    "spa": 140,
+    "spd": 70,
+    "spe": 112
+   },
+   "realStats": {
+    "hp": 145,
+    "atk": 165,
+    "def": 108,
+    "spa": 160,
+    "spd": 90,
+    "spe": 132
+   },
+   "weight": 575,
+   "regulationMA": true,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 15660,
+    "spec0": 13050,
+    "physHp": 19116,
+    "specHp": 15930,
+    "physDef": 27258,
+    "specSpd": 23718
+   }
+  }
+ ],
+ "460": [
+  {
+   "name": "abomasnow-mega",
+   "nameKo": "메가눈설왕",
+   "nameJa": "メガユキノオー",
+   "types": [
+    "grass",
+    "ice"
+   ],
+   "abilities": [
+    {
+     "name": "snow-warning",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 90,
+    "atk": 132,
+    "def": 105,
+    "spa": 132,
+    "spd": 105,
+    "spe": 30
+   },
+   "realStats": {
+    "hp": 165,
+    "atk": 152,
+    "def": 125,
+    "spa": 152,
+    "spd": 125,
+    "spe": 50
+   },
+   "weight": 1850,
+   "regulationMA": true,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 20625,
+    "spec0": 20625,
+    "physHp": 24625,
+    "specHp": 24625,
+    "physDef": 33884,
+    "specSpd": 33884
+   }
+  }
+ ],
+ "475": [
+  {
+   "name": "gallade-mega",
+   "nameKo": "메가엘레이드",
+   "nameJa": "メガエルレイド",
+   "types": [
+    "psychic",
+    "fighting"
+   ],
+   "abilities": [
+    {
+     "name": "inner-focus",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 68,
+    "atk": 165,
+    "def": 95,
+    "spa": 65,
+    "spd": 115,
+    "spe": 110
+   },
+   "realStats": {
+    "hp": 143,
+    "atk": 185,
+    "def": 115,
+    "spa": 85,
+    "spd": 135,
+    "spe": 130
+   },
+   "weight": 564,
+   "regulationMA": true,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 16445,
+    "spec0": 19305,
+    "physHp": 20125,
+    "specHp": 23625,
+    "physDef": 28175,
+    "specSpd": 32025
+   }
+  }
+ ],
+ "478": [
+  {
+   "name": "froslass-mega",
+   "nameKo": "메가눈여아",
+   "nameJa": "ユキメノコ",
+   "types": [
+    "ice",
+    "ghost"
+   ],
+   "abilities": [
+    {
+     "name": "snow-warning",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 70,
+    "atk": 80,
+    "def": 70,
+    "spa": 140,
+    "spd": 100,
+    "spe": 120
+   },
+   "realStats": {
+    "hp": 145,
+    "atk": 100,
+    "def": 90,
+    "spa": 160,
+    "spd": 120,
+    "spe": 140
+   },
+   "weight": 296,
+   "regulationMA": false,
+   "regulationMB": false,
+   "bulk": {
+    "phys0": 13050,
+    "spec0": 17400,
+    "physHp": 15930,
+    "specHp": 21240,
+    "physDef": 23718,
+    "specSpd": 29559
+   }
+  }
+ ],
+ "500": [
+  {
+   "name": "emboar-mega",
+   "nameKo": "메가염무왕",
+   "nameJa": "エンブオー",
+   "types": [
+    "fire",
+    "fighting"
+   ],
+   "abilities": [
+    {
+     "name": "mold-breaker",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 110,
+    "atk": 148,
+    "def": 75,
+    "spa": 110,
+    "spd": 110,
+    "spe": 75
+   },
+   "realStats": {
+    "hp": 185,
+    "atk": 168,
+    "def": 95,
+    "spa": 130,
+    "spd": 130,
+    "spe": 95
+   },
+   "weight": 1803,
+   "regulationMA": true,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 17575,
+    "spec0": 24050,
+    "physHp": 20615,
+    "specHp": 28210,
+    "physDef": 30163,
+    "specSpd": 38626
+   }
+  }
+ ],
+ "518": [
+  {
+   "name": "musharna-mega",
+   "nameKo": "메가몽얌나",
+   "nameJa": "メガムシャーナ",
+   "types": [
+    "psychic"
+   ],
+   "abilities": [
+    {
+     "name": "telepathy",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 116,
+    "atk": 55,
+    "def": 105,
+    "spa": 157,
+    "spd": 115,
+    "spe": 39
+   },
+   "realStats": {
+    "hp": 191,
+    "atk": 75,
+    "def": 125,
+    "spa": 177,
+    "spd": 135,
+    "spe": 59
+   },
+   "weight": 605,
+   "regulationMA": false,
+   "regulationMB": false,
+   "bulk": {
+    "phys0": 23875,
+    "spec0": 25785,
+    "physHp": 27875,
+    "specHp": 30105,
+    "physDef": 38356,
+    "specSpd": 40809
+   }
+  }
+ ],
+ "530": [
+  {
+   "name": "excadrill-mega",
+   "nameKo": "메가몰드류",
+   "nameJa": "ドリュウズ",
+   "types": [
+    "ground",
+    "steel"
+   ],
+   "abilities": [
+    {
+     "name": "penetrating-drill",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 110,
+    "atk": 175,
+    "def": 80,
+    "spa": 50,
+    "spd": 85,
+    "spe": 108
+   },
+   "realStats": {
+    "hp": 185,
+    "atk": 195,
+    "def": 100,
+    "spa": 70,
+    "spd": 105,
+    "spe": 128
+   },
+   "weight": 600,
+   "regulationMA": true,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 18500,
+    "spec0": 19425,
+    "physHp": 21700,
+    "specHp": 22785,
+    "physDef": 31465,
+    "specSpd": 32550
+   }
+  }
+ ],
+ "531": [
+  {
+   "name": "audino-mega",
+   "nameKo": "메가다부니",
+   "nameJa": "メガタブンネ",
+   "types": [
+    "normal",
+    "fairy"
+   ],
+   "abilities": [
+    {
+     "name": "healer",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 103,
+    "atk": 60,
+    "def": 126,
+    "spa": 80,
+    "spd": 126,
+    "spe": 50
+   },
+   "realStats": {
+    "hp": 178,
+    "atk": 80,
+    "def": 146,
+    "spa": 100,
+    "spd": 146,
+    "spe": 70
+   },
+   "weight": 320,
+   "regulationMA": true,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 25988,
+    "spec0": 25988,
+    "physHp": 30660,
+    "specHp": 30660,
+    "physDef": 40950,
+    "specSpd": 40950
+   }
+  }
+ ],
+ "545": [
+  {
+   "name": "scolipede-mega",
+   "nameKo": "메가펜드라",
+   "nameJa": "メガペンドラー",
+   "types": [
+    "bug",
+    "poison"
+   ],
+   "abilities": [
+    {
+     "name": "shell-armor",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 60,
+    "atk": 140,
+    "def": 149,
+    "spa": 75,
+    "spd": 99,
+    "spe": 62
+   },
+   "realStats": {
+    "hp": 135,
+    "atk": 160,
+    "def": 169,
+    "spa": 95,
+    "spd": 119,
+    "spe": 82
+   },
+   "weight": 2005,
+   "regulationMA": false,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 22815,
+    "spec0": 16065,
+    "physHp": 28223,
+    "specHp": 19873,
+    "physDef": 36907,
+    "specSpd": 27722
+   }
+  }
+ ],
+ "560": [
+  {
+   "name": "scrafty-mega",
+   "nameKo": "메가곤율거니",
+   "nameJa": "メガズルズキン",
+   "types": [
+    "dark",
+    "fighting"
+   ],
+   "abilities": [
+    {
+     "name": "intimidate",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 65,
+    "atk": 140,
+    "def": 135,
+    "spa": 45,
+    "spd": 135,
+    "spe": 68
+   },
+   "realStats": {
+    "hp": 140,
+    "atk": 160,
+    "def": 155,
+    "spa": 65,
+    "spd": 155,
+    "spe": 88
+   },
+   "weight": 300,
+   "regulationMA": false,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 21700,
+    "spec0": 21700,
+    "physHp": 26660,
+    "specHp": 26660,
+    "physDef": 35260,
+    "specSpd": 35260
+   }
+  }
+ ],
+ "604": [
+  {
+   "name": "eelektross-mega",
+   "nameKo": "메가저리더프",
+   "nameJa": "メガシビルドン",
+   "types": [
+    "electric"
+   ],
+   "abilities": [
+    {
+     "name": "eelevate",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 85,
+    "atk": 140,
+    "def": 80,
+    "spa": 150,
+    "spd": 90,
+    "spe": 70
+   },
+   "realStats": {
+    "hp": 160,
+    "atk": 160,
+    "def": 100,
+    "spa": 170,
+    "spd": 110,
+    "spe": 90
+   },
+   "weight": 805,
+   "regulationMA": false,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 16000,
+    "spec0": 17600,
+    "physHp": 19200,
+    "specHp": 21120,
+    "physDef": 27840,
+    "specSpd": 29952
+   }
+  }
+ ],
+ "609": [
+  {
+   "name": "chandelure-mega",
+   "nameKo": "메가샹델라",
+   "nameJa": "シャンデラ",
+   "types": [
+    "ghost",
+    "fire"
+   ],
+   "abilities": [
+    {
+     "name": "infiltrator",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 60,
+    "atk": 75,
+    "def": 110,
+    "spa": 175,
+    "spd": 110,
+    "spe": 90
+   },
+   "realStats": {
+    "hp": 135,
+    "atk": 95,
+    "def": 130,
+    "spa": 195,
+    "spd": 130,
+    "spe": 110
+   },
+   "weight": 696,
+   "regulationMA": true,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 17550,
+    "spec0": 17550,
+    "physHp": 21710,
+    "specHp": 21710,
+    "physDef": 29726,
+    "specSpd": 29726
+   }
+  }
+ ],
+ "623": [
+  {
+   "name": "golurk-mega",
+   "nameKo": "메가골루그",
+   "nameJa": "ゴルーグ",
+   "types": [
+    "ground",
+    "ghost"
+   ],
+   "abilities": [
+    {
+     "name": "unseen-fist",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 89,
+    "atk": 159,
+    "def": 105,
+    "spa": 70,
+    "spd": 105,
+    "spe": 55
+   },
+   "realStats": {
+    "hp": 164,
+    "atk": 179,
+    "def": 125,
+    "spa": 90,
+    "spd": 125,
+    "spe": 75
+   },
+   "weight": 3300,
+   "regulationMA": true,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 20500,
+    "spec0": 20500,
+    "physHp": 24500,
+    "specHp": 24500,
+    "physDef": 33712,
+    "specSpd": 33712
+   }
+  }
+ ],
+ "652": [
+  {
+   "name": "chesnaught-mega",
+   "nameKo": "메가브리가론",
+   "nameJa": "ブリガロン",
+   "types": [
+    "grass",
+    "fighting"
+   ],
+   "abilities": [
+    {
+     "name": "bulletproof",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 88,
+    "atk": 137,
+    "def": 152,
+    "spa": 74,
+    "spd": 105,
+    "spe": 74
+   },
+   "realStats": {
+    "hp": 163,
+    "atk": 157,
+    "def": 172,
+    "spa": 94,
+    "spd": 125,
+    "spe": 94
+   },
+   "weight": 900,
+   "regulationMA": true,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 28036,
+    "spec0": 20375,
+    "physHp": 33540,
+    "specHp": 24375,
+    "physDef": 43680,
+    "specSpd": 33540
+   }
+  }
+ ],
+ "655": [
+  {
+   "name": "delphox-mega",
+   "nameKo": "메가마폭시",
+   "nameJa": "マフォクシー",
+   "types": [
+    "fire",
+    "psychic"
+   ],
+   "abilities": [
+    {
+     "name": "levitate",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 75,
+    "atk": 69,
+    "def": 72,
+    "spa": 159,
+    "spd": 125,
+    "spe": 134
+   },
+   "realStats": {
+    "hp": 150,
+    "atk": 89,
+    "def": 92,
+    "spa": 179,
+    "spd": 145,
+    "spe": 154
+   },
+   "weight": 390,
+   "regulationMA": true,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 13800,
+    "spec0": 21750,
+    "physHp": 16744,
+    "specHp": 26390,
+    "physDef": 24752,
+    "specSpd": 35308
+   }
+  }
+ ],
+ "658": [
+  {
+   "name": "greninja-mega",
+   "nameKo": "메가개굴닌자",
+   "nameJa": "ゲッコウガ",
+   "types": [
+    "water",
+    "dark"
+   ],
+   "abilities": [
+    {
+     "name": "protean",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 72,
+    "atk": 125,
+    "def": 77,
+    "spa": 133,
+    "spd": 81,
+    "spe": 142
+   },
+   "realStats": {
+    "hp": 147,
+    "atk": 145,
+    "def": 97,
+    "spa": 153,
+    "spd": 101,
+    "spe": 162
+   },
+   "weight": 400,
+   "regulationMA": true,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 14259,
+    "spec0": 14847,
+    "physHp": 17363,
+    "specHp": 18079,
+    "physDef": 25239,
+    "specSpd": 26134
+   }
+  }
+ ],
+ "668": [
+  {
+   "name": "pyroar-mega",
+   "nameKo": "메가화염레오",
+   "nameJa": "メガカエンジシ",
+   "types": [
+    "fire",
+    "normal"
+   ],
+   "abilities": [
+    {
+     "name": "fire-mane",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 86,
+    "atk": 68,
+    "def": 72,
+    "spa": 159,
+    "spd": 86,
+    "spe": 136
+   },
+   "realStats": {
+    "hp": 161,
+    "atk": 88,
+    "def": 92,
+    "spa": 179,
+    "spd": 106,
+    "spe": 156
+   },
+   "weight": 815,
+   "regulationMA": false,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 14812,
+    "spec0": 17066,
+    "physHp": 17756,
+    "specHp": 20458,
+    "physDef": 26248,
+    "specSpd": 29143
+   }
+  }
+ ],
+ "670": [
+  {
+   "name": "floette-eternal-mega",
+   "nameKo": "메가 플라엣테(영원의 꽃)",
+   "nameJa": "メガフラエッテ",
+   "requiresForm": "floette-eternal",
+   "types": [
+    "fairy"
+   ],
+   "abilities": [
+    {
+     "name": "fairy-aura",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 74,
+    "atk": 85,
+    "def": 87,
+    "spa": 155,
+    "spd": 148,
+    "spe": 102
+   },
+   "realStats": {
+    "hp": 149,
+    "atk": 105,
+    "def": 107,
+    "spa": 175,
+    "spd": 168,
+    "spe": 122
+   },
+   "weight": 1008,
+   "regulationMA": true,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 15943,
+    "spec0": 25032,
+    "physHp": 19367,
+    "specHp": 30408,
+    "physDef": 27512,
+    "specSpd": 39820
+   }
+  }
+ ],
+ "678": [
+  {
+   "name": "meowstic-mega",
+   "nameKo": "메가냐오닉스",
+   "nameJa": "ニャオニクス",
+   "types": [
+    "psychic"
+   ],
+   "abilities": [
+    {
+     "name": "trace",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 74,
+    "atk": 48,
+    "def": 76,
+    "spa": 143,
+    "spd": 101,
+    "spe": 124
+   },
+   "realStats": {
+    "hp": 149,
+    "atk": 68,
+    "def": 96,
+    "spa": 163,
+    "spd": 121,
+    "spe": 144
+   },
+   "weight": 101,
+   "regulationMA": true,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 14304,
+    "spec0": 18029,
+    "physHp": 17376,
+    "specHp": 21901,
+    "physDef": 25340,
+    "specSpd": 30408
+   }
+  }
+ ],
+ "687": [
+  {
+   "name": "malamar-mega",
+   "nameKo": "메가칼라마네로",
+   "nameJa": "メガカラマネロ",
+   "types": [
+    "dark",
+    "psychic"
+   ],
+   "abilities": [
+    {
+     "name": "contrary",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 86,
+    "atk": 142,
+    "def": 103,
+    "spa": 68,
+    "spd": 85,
+    "spe": 98
+   },
+   "realStats": {
+    "hp": 161,
+    "atk": 162,
+    "def": 123,
+    "spa": 88,
+    "spd": 105,
+    "spe": 118
+   },
+   "weight": 470,
+   "regulationMA": false,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 19803,
+    "spec0": 16905,
+    "physHp": 23739,
+    "specHp": 20265,
+    "physDef": 32810,
+    "specSpd": 28950
+   }
+  }
+ ],
+ "689": [
+  {
+   "name": "barbaracle-mega",
+   "nameKo": "메가거북손데스",
+   "nameJa": "メガガメノデス",
+   "types": [
+    "rock",
+    "fighting"
+   ],
+   "abilities": [
+    {
+     "name": "tough-claws",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 72,
+    "atk": 155,
+    "def": 140,
+    "spa": 54,
+    "spd": 101,
+    "spe": 78
+   },
+   "realStats": {
+    "hp": 147,
+    "atk": 175,
+    "def": 160,
+    "spa": 74,
+    "spd": 121,
+    "spe": 98
+   },
+   "weight": 960,
+   "regulationMA": false,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 23520,
+    "spec0": 17787,
+    "physHp": 28640,
+    "specHp": 21659,
+    "physDef": 37769,
+    "specSpd": 30072
+   }
+  }
+ ],
+ "691": [
+  {
+   "name": "dragalge-mega",
+   "nameKo": "메가드래캄",
+   "nameJa": "メガドラミドロ",
+   "types": [
+    "poison",
+    "dragon"
+   ],
+   "abilities": [
+    {
+     "name": "regenerator",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 65,
+    "atk": 75,
+    "def": 105,
+    "spa": 147,
+    "spd": 148,
+    "spe": 54
+   },
+   "realStats": {
+    "hp": 140,
+    "atk": 95,
+    "def": 125,
+    "spa": 167,
+    "spd": 168,
+    "spe": 74
+   },
+   "weight": 815,
+   "regulationMA": false,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 17500,
+    "spec0": 23520,
+    "physHp": 21500,
+    "specHp": 28896,
+    "physDef": 29584,
+    "specSpd": 37840
+   }
+  }
+ ],
+ "701": [
+  {
+   "name": "hawlucha-mega",
+   "nameKo": "메가루차불",
+   "nameJa": "ルチャブル",
+   "types": [
+    "fighting",
+    "flying"
+   ],
+   "abilities": [
+    {
+     "name": "no-guard",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 78,
+    "atk": 137,
+    "def": 100,
+    "spa": 74,
+    "spd": 93,
+    "spe": 118
+   },
+   "realStats": {
+    "hp": 153,
+    "atk": 157,
+    "def": 120,
+    "spa": 94,
+    "spd": 113,
+    "spe": 138
+   },
+   "weight": 250,
+   "regulationMA": true,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 18360,
+    "spec0": 17289,
+    "physHp": 22200,
+    "specHp": 20905,
+    "physDef": 30895,
+    "specSpd": 29415
+   }
+  }
+ ],
+ "719": [
+  {
+   "name": "diancie-mega",
+   "nameKo": "메가디안시",
+   "nameJa": "メガディアンシー",
+   "types": [
+    "rock",
+    "fairy"
+   ],
+   "abilities": [
+    {
+     "name": "magic-bounce",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 50,
+    "atk": 160,
+    "def": 110,
+    "spa": 160,
+    "spd": 110,
+    "spe": 110
+   },
+   "realStats": {
+    "hp": 125,
+    "atk": 180,
+    "def": 130,
+    "spa": 180,
+    "spd": 130,
+    "spe": 130
+   },
+   "weight": 278,
+   "regulationMA": false,
+   "regulationMB": false,
+   "bulk": {
+    "phys0": 16250,
+    "spec0": 16250,
+    "physHp": 20410,
+    "specHp": 20410,
+    "physDef": 27946,
+    "specSpd": 27946
+   }
+  }
+ ],
+ "740": [
+  {
+   "name": "crabominable-mega",
+   "nameKo": "메가모단단게",
+   "nameJa": "ケケンカニ",
+   "types": [
+    "fighting",
+    "ice"
+   ],
+   "abilities": [
+    {
+     "name": "iron-fist",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 97,
+    "atk": 157,
+    "def": 122,
+    "spa": 62,
+    "spd": 107,
+    "spe": 33
+   },
+   "realStats": {
+    "hp": 172,
+    "atk": 177,
+    "def": 142,
+    "spa": 82,
+    "spd": 127,
+    "spe": 53
+   },
+   "weight": 2528,
+   "regulationMA": true,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 24424,
+    "spec0": 21844,
+    "physHp": 28968,
+    "specHp": 25908,
+    "physDef": 38964,
+    "specSpd": 35496
+   }
+  }
+ ],
+ "780": [
+  {
+   "name": "drampa-mega",
+   "nameKo": "메가할비롱",
+   "nameJa": "ジジーロン",
+   "types": [
+    "normal",
+    "dragon"
+   ],
+   "abilities": [
+    {
+     "name": "berserk",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 78,
+    "atk": 85,
+    "def": 110,
+    "spa": 160,
+    "spd": 116,
+    "spe": 36
+   },
+   "realStats": {
+    "hp": 153,
+    "atk": 105,
+    "def": 130,
+    "spa": 180,
+    "spd": 136,
+    "spe": 56
+   },
+   "weight": 2405,
+   "regulationMA": true,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 19890,
+    "spec0": 20808,
+    "physHp": 24050,
+    "specHp": 25160,
+    "physDef": 32930,
+    "specSpd": 34040
+   }
+  }
+ ],
+ "861": [
+  {
+   "name": "grimmsnarl-mega",
+   "nameKo": "메가오롱털",
+   "nameJa": "メガオーロンゲ",
+   "types": [
+    "dark",
+    "fairy"
+   ],
+   "abilities": [
+    {
+     "name": "prankster",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 95,
+    "atk": 170,
+    "def": 80,
+    "spa": 95,
+    "spd": 100,
+    "spe": 70
+   },
+   "realStats": {
+    "hp": 170,
+    "atk": 190,
+    "def": 100,
+    "spa": 115,
+    "spd": 120,
+    "spe": 90
+   },
+   "weight": 610,
+   "regulationMA": false,
+   "regulationMB": false,
+   "bulk": {
+    "phys0": 17000,
+    "spec0": 20400,
+    "physHp": 20200,
+    "specHp": 24240,
+    "physDef": 29290,
+    "specSpd": 33734
+   }
+  }
+ ],
+ "870": [
+  {
+   "name": "falinks-mega",
+   "nameKo": "메가대여르",
+   "nameJa": "メガタイレーツ",
+   "types": [
+    "fighting"
+   ],
+   "abilities": [
+    {
+     "name": "defiant",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 65,
+    "atk": 150,
+    "def": 120,
+    "spa": 70,
+    "spd": 70,
+    "spe": 95
+   },
+   "realStats": {
+    "hp": 140,
+    "atk": 170,
+    "def": 140,
+    "spa": 90,
+    "spd": 90,
+    "spe": 115
+   },
+   "weight": 620,
+   "regulationMA": false,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 19600,
+    "spec0": 12600,
+    "physHp": 24080,
+    "specHp": 15480,
+    "physDef": 32508,
+    "specSpd": 23048
+   }
+  }
+ ],
+ "952": [
+  {
+   "name": "scovillain-mega",
+   "nameKo": "메가스코빌런",
+   "nameJa": "スコヴィラン",
+   "types": [
+    "grass",
+    "fire"
+   ],
+   "abilities": [
+    {
+     "name": "spicy-spray",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 65,
+    "atk": 138,
+    "def": 85,
+    "spa": 138,
+    "spd": 85,
+    "spe": 75
+   },
+   "realStats": {
+    "hp": 140,
+    "atk": 158,
+    "def": 105,
+    "spa": 158,
+    "spd": 105,
+    "spe": 95
+   },
+   "weight": 220,
+   "regulationMA": true,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 14700,
+    "spec0": 14700,
+    "physHp": 18060,
+    "specHp": 18060,
+    "physDef": 25800,
+    "specSpd": 25800
+   }
+  }
+ ],
+ "970": [
+  {
+   "name": "glimmora-mega",
+   "nameKo": "메가킬라플로르",
+   "nameJa": "キラフロル",
+   "types": [
+    "rock",
+    "poison"
+   ],
+   "abilities": [
+    {
+     "name": "adaptability",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 83,
+    "atk": 90,
+    "def": 105,
+    "spa": 150,
+    "spd": 96,
+    "spe": 101
+   },
+   "realStats": {
+    "hp": 158,
+    "atk": 110,
+    "def": 125,
+    "spa": 170,
+    "spd": 116,
+    "spe": 121
+   },
+   "weight": 770,
+   "regulationMA": true,
+   "regulationMB": true,
+   "bulk": {
+    "phys0": 19750,
+    "spec0": 18328,
+    "physHp": 23750,
+    "specHp": 22040,
+    "physDef": 32680,
+    "specSpd": 30780
+   }
+  }
+ ],
+ "972": [
+  {
+   "name": "houndstone-mega",
+   "nameKo": "메가묘두기",
+   "nameJa": "メガハカドッグ",
+   "types": [
+    "ghost"
+   ],
+   "abilities": [
+    {
+     "name": "fluffy",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 72,
+    "atk": 146,
+    "def": 110,
+    "spa": 50,
+    "spd": 112,
+    "spe": 98
+   },
+   "realStats": {
+    "hp": 147,
+    "atk": 166,
+    "def": 130,
+    "spa": 70,
+    "spd": 132,
+    "spe": 118
+   },
+   "weight": 150,
+   "regulationMA": false,
+   "regulationMB": false,
+   "bulk": {
+    "phys0": 19110,
+    "spec0": 19404,
+    "physHp": 23270,
+    "specHp": 23628,
+    "physDef": 31862,
+    "specSpd": 32220
+   }
+  }
+ ],
+ "979": [
+  {
+   "name": "annihilape-mega",
+   "nameKo": "메가저승갓숭",
+   "nameJa": "メガコノヨザル",
+   "types": [
+    "fighting",
+    "ghost"
+   ],
+   "abilities": [
+    {
+     "name": "defiant",
+     "isHidden": false
+    }
+   ],
+   "stats": {
+    "hp": 110,
+    "atk": 165,
+    "def": 90,
+    "spa": 50,
+    "spd": 100,
+    "spe": 120
+   },
+   "realStats": {
+    "hp": 185,
+    "atk": 185,
+    "def": 110,
+    "spa": 70,
+    "spd": 120,
+    "spe": 140
+   },
+   "weight": 560,
+   "regulationMA": false,
+   "regulationMB": false,
+   "bulk": {
+    "phys0": 20350,
+    "spec0": 22200,
+    "physHp": 23870,
+    "specHp": 26040,
+    "physDef": 33852,
+    "specSpd": 36239
+   }
+  }
+ ]
+}

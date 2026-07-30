@@ -1,0 +1,177 @@
+[
+ {
+  "name": "hardy",
+  "nameKo": "굳센",
+  "nameJa": "がんばりや",
+  "up": null,
+  "down": null
+ },
+ {
+  "name": "lonely",
+  "nameKo": "외로움",
+  "nameJa": "さみしがり",
+  "up": "atk",
+  "down": "def"
+ },
+ {
+  "name": "brave",
+  "nameKo": "용감",
+  "nameJa": "ゆうかん",
+  "up": "atk",
+  "down": "spe"
+ },
+ {
+  "name": "adamant",
+  "nameKo": "고집",
+  "nameJa": "いじっぱり",
+  "up": "atk",
+  "down": "spa"
+ },
+ {
+  "name": "naughty",
+  "nameKo": "개구쟁이",
+  "nameJa": "やんちゃ",
+  "up": "atk",
+  "down": "spd"
+ },
+ {
+  "name": "bold",
+  "nameKo": "대담",
+  "nameJa": "ずぶとい",
+  "up": "def",
+  "down": "atk"
+ },
+ {
+  "name": "docile",
+  "nameKo": "온순",
+  "nameJa": "すなお",
+  "up": null,
+  "down": null
+ },
+ {
+  "name": "relaxed",
+  "nameKo": "무사태평",
+  "nameJa": "のんき",
+  "up": "def",
+  "down": "spe"
+ },
+ {
+  "name": "impish",
+  "nameKo": "장난꾸러기",
+  "nameJa": "わんぱく",
+  "up": "def",
+  "down": "spa"
+ },
+ {
+  "name": "lax",
+  "nameKo": "촐랑",
+  "nameJa": "のうてんき",
+  "up": "def",
+  "down": "spd"
+ },
+ {
+  "name": "timid",
+  "nameKo": "겁쟁이",
+  "nameJa": "おくびょう",
+  "up": "spe",
+  "down": "atk"
+ },
+ {
+  "name": "hasty",
+  "nameKo": "성급",
+  "nameJa": "せっかち",
+  "up": "spe",
+  "down": "def"
+ },
+ {
+  "name": "serious",
+  "nameKo": "성실",
+  "nameJa": "まじめ",
+  "up": null,
+  "down": null
+ },
+ {
+  "name": "jolly",
+  "nameKo": "명랑",
+  "nameJa": "ようき",
+  "up": "spe",
+  "down": "spa"
+ },
+ {
+  "name": "naive",
+  "nameKo": "천진난만",
+  "nameJa": "むじゃき",
+  "up": "spe",
+  "down": "spd"
+ },
+ {
+  "name": "modest",
+  "nameKo": "조심",
+  "nameJa": "ひかえめ",
+  "up": "spa",
+  "down": "atk"
+ },
+ {
+  "name": "mild",
+  "nameKo": "의젓",
+  "nameJa": "おっとり",
+  "up": "spa",
+  "down": "def"
+ },
+ {
+  "name": "quiet",
+  "nameKo": "냉정",
+  "nameJa": "れいせい",
+  "up": "spa",
+  "down": "spe"
+ },
+ {
+  "name": "bashful",
+  "nameKo": "수줍음",
+  "nameJa": "てれや",
+  "up": null,
+  "down": null
+ },
+ {
+  "name": "rash",
+  "nameKo": "덜렁",
+  "nameJa": "うっかりや",
+  "up": "spa",
+  "down": "spd"
+ },
+ {
+  "name": "calm",
+  "nameKo": "차분",
+  "nameJa": "おだやか",
+  "up": "spd",
+  "down": "atk"
+ },
+ {
+  "name": "gentle",
+  "nameKo": "얌전",
+  "nameJa": "おとなしい",
+  "up": "spd",
+  "down": "def"
+ },
+ {
+  "name": "sassy",
+  "nameKo": "건방",
+  "nameJa": "なまいき",
+  "up": "spd",
+  "down": "spe"
+ },
+ {
+  "name": "careful",
+  "nameKo": "신중",
+  "nameJa": "しんちょう",
+  "up": "spd",
+  "down": "spa"
+ },
+ {
+  "name": "quirky",
+  "nameKo": "변덕",
+  "nameJa": "きまぐれ",
+  "up": null,
+  "down": null
+ }
+]
