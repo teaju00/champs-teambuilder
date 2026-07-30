@@ -17,6 +17,7 @@ os.path.dirname(__file__) 기준으로 데이터를 찾으므로, 같은 폴더�
 from __future__ import annotations
 
 import glob
+import json
 import os
 import re
 import shutil
@@ -28,11 +29,12 @@ BUILD_DIR = os.path.join(BASE_DIR, "build", "champs-team-builder")
 DIST_DIR = os.path.join(BASE_DIR, "dist")
 ZIP_PATH = os.path.join(DIST_DIR, "champs-team-builder.zip")
 
-# claude.ai custom Skill 업로드는 압축 해제 크기 30MB 제한이 있다. data/pkmnchamps
-# 전체(28MB, 전 레귤레이션·전 월 사용률 이력)를 다 넣으면 바로 넘긴다 — offmeta.py가
-# 쓰는 정적 참조 파일 4개 + meta_trend.py 트렌드 비교에 필요한 최소치(현 레귤레이션
-# 최근 2개월)만 골라서 담는다.
+# claude.ai custom Skill 업로드는 두 한도가 있다: 압축 해제 크기 30MB, 파일 개수 200개.
+# data/pkmnchamps 전체(28MB, 전 레귤레이션·전 월 사용률 이력)를 다 넣으면 용량부터
+# 넘기고, knowledge_base/pokemon/*.md(237개)를 그대로 넣으면 그것만으로 개수 한도를
+# 넘긴다 — 둘 다 내용은 그대로 두고 개수/용량만 줄인다.
 SOFT_LIMIT_MB = 28  # 30MB 제한에 여유를 둔 목표치(신규 포켓몬 등으로 KB가 조금씩 늘어나므로)
+MAX_FILES = 200
 
 # 런타임에 실제로 필요한 것만. 데이터 재수집 파이프라인(pkmnchamps_source.py,
 # champs_dataset.py, kb_builder.py, guides_builder.py)은 네트워크가 필요해서
@@ -43,7 +45,6 @@ SCRIPT_FILES = [
     "battle_rules.py", "i18n.py", "data_hints.py",
 ]
 DATA_ITEMS = [
-    "knowledge_base",
     "champs_singles.json",
     "champs_doubles.json",
 ]
@@ -73,6 +74,18 @@ FULL_DATA_NOTE_PACKAGED_SUFFIX = (
     "전체 이력·다른 레귤레이션이 필요하면 GitHub 리포를 쓴다.)"
 )
 
+# zip 파일 개수 200개 한도 때문에, 포켓몬별/가이드별 문서를 각각 파일 하나로 합친다
+# (내용은 그대로, 개수만 줄임). SKILL.md 의 지식구조 트리도 그에 맞춰 고쳐야 한다.
+KB_TREE_ORIGINAL = (
+    "├── pokemon/*.md      # 포켓몬별 상세 문서 (종족값/특성/기술/도구/성격/EV/약점)\n"
+    "└── guides/*.md       # pkmnchamps 공식 가이드 7종 (날씨/필드/특성/타입/상태이상/능력치/명중률)"
+)
+KB_TREE_PACKAGED = (
+    "├── pokemon_all.md    # 포켓몬별 상세 문서 전체 (종족값/특성/기술/도구/성격/EV/약점),\n"
+    "│                     #   '# <한글이름>' 헤더로 구분 — 파일 개수 한도 때문에 한 파일로 합침\n"
+    "└── guides_all.md     # pkmnchamps 공식 가이드 7종 (날씨/필드/특성/타입/상태이상/능력치/명중률), 동일 방식"
+)
+
 ATTRIBUTION_SECTION = """## 데이터 스냅샷 & 출처
 
 이 패키지에 포함된 데이터는 특정 시점 스냅샷이다 (재수집 파이프라인은 네트워크가
@@ -91,6 +104,7 @@ def build_skill_md() -> str:
     text = open(SOURCE_SKILL_MD, encoding="utf-8").read()
     text = text.replace(DATA_PIPELINE_LINE, "").rstrip() + "\n"
     text = text.replace(FULL_DATA_NOTE, FULL_DATA_NOTE + FULL_DATA_NOTE_PACKAGED_SUFFIX)
+    text = text.replace(KB_TREE_ORIGINAL, KB_TREE_PACKAGED)
     text = re.sub(
         r"\n## 데이터 갱신 \(사용자가 명시적으로 요청할 때만\)\n.*\Z",
         "\n" + ATTRIBUTION_SECTION,
@@ -98,6 +112,40 @@ def build_skill_md() -> str:
         flags=re.S,
     )
     return text
+
+
+def _concat_md(src_dir: str, filenames: list[str], dst_path: str) -> None:
+    with open(dst_path, "w", encoding="utf-8") as out:
+        for i, fname in enumerate(filenames):
+            if i:
+                out.write("\n\n---\n\n")
+            out.write(open(os.path.join(src_dir, fname), encoding="utf-8").read().rstrip())
+            out.write("\n")
+
+
+def copy_knowledge_base(dst_dir: str) -> None:
+    src_dir = os.path.join(BASE_DIR, "knowledge_base")
+    os.makedirs(dst_dir, exist_ok=True)
+
+    for name in ("rules.md", "summary.md", "type_chart.md"):
+        shutil.copy2(os.path.join(src_dir, name), os.path.join(dst_dir, name))
+
+    pokemon_dir = os.path.join(src_dir, "pokemon")
+    pokemon_files = sorted(os.listdir(pokemon_dir))
+    _concat_md(pokemon_dir, pokemon_files, os.path.join(dst_dir, "pokemon_all.md"))
+
+    guides_dir = os.path.join(src_dir, "guides")
+    guide_files = sorted(f for f in os.listdir(guides_dir) if f.endswith(".md"))
+    _concat_md(guides_dir, guide_files, os.path.join(dst_dir, "guides_all.md"))
+
+    # index.json 의 doc_path 는 원래 "pokemon/<id>.md" 를 가리킨다. 위에서 한 파일로
+    # 합쳤으니, kb_search.py 가 출력하는 안내 경로도 맞춰서 고쳐야 한다.
+    index = json.load(open(os.path.join(src_dir, "index.json"), encoding="utf-8"))
+    for entry in index.get("pokemon", []):
+        if str(entry.get("doc_path", "")).startswith("pokemon/"):
+            entry["doc_path"] = "pokemon_all.md"
+    with open(os.path.join(dst_dir, "index.json"), "w", encoding="utf-8") as f:
+        json.dump(index, f, ensure_ascii=False)
 
 
 def copy_data_pkmnchamps(dst_dir: str) -> None:
@@ -132,18 +180,23 @@ def main() -> None:
             os.makedirs(os.path.dirname(dst), exist_ok=True)
             shutil.copy2(src, dst)
 
+    copy_knowledge_base(os.path.join(BUILD_DIR, "knowledge_base"))
     copy_data_pkmnchamps(os.path.join(BUILD_DIR, "data", "pkmnchamps"))
 
-    uncompressed_bytes = sum(
-        os.path.getsize(os.path.join(root, f))
+    all_files = [
+        os.path.join(root, f)
         for root, _dirs, files in os.walk(BUILD_DIR)
         for f in files
-    )
-    uncompressed_mb = uncompressed_bytes / (1024 * 1024)
+    ]
+    uncompressed_mb = sum(os.path.getsize(p) for p in all_files) / (1024 * 1024)
+    n_files = len(all_files)
+
     if uncompressed_mb > 30:
         print("경고: 압축 해제 크기 %.1f MB — claude.ai 업로드 한도(30MB) 초과!" % uncompressed_mb)
     elif uncompressed_mb > SOFT_LIMIT_MB:
         print("주의: 압축 해제 크기 %.1f MB — 30MB 한도에 근접" % uncompressed_mb)
+    if n_files > MAX_FILES:
+        print("경고: 파일 %d개 — claude.ai 업로드 한도(%d개) 초과!" % (n_files, MAX_FILES))
 
     os.makedirs(DIST_DIR, exist_ok=True)
     if os.path.exists(ZIP_PATH):
@@ -160,7 +213,8 @@ def main() -> None:
                 zf.write(fpath, arcname)
 
     zip_mb = os.path.getsize(ZIP_PATH) / (1024 * 1024)
-    print("빌드 완료: %s (zip %.1f MB, 압축 해제 %.1f MB)" % (ZIP_PATH, zip_mb, uncompressed_mb))
+    print("빌드 완료: %s (zip %.1f MB, 압축 해제 %.1f MB, 파일 %d개)"
+          % (ZIP_PATH, zip_mb, uncompressed_mb, n_files))
 
 
 if __name__ == "__main__":
